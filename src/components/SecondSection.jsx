@@ -1,6 +1,5 @@
 import React from 'react'
 import "./SecondSection.scss";
-import imagemine from "src/assets/Me_ProfilePic.jpg"
 
 const SecondSection = () => {
     return (
@@ -19,7 +18,7 @@ const ProfileCard = () => {
         <>
             <div className="mainProfileContainer">
                 <div className="profilePhoto">
-                    <img src={imagemine} width="400px" alt="" />
+                    <img src={"https://i.ibb.co/0C83W83/IMGIMG-20211015-235230-907.jpg"} width="400px" alt="" />
                 </div>
                 <div className="profileDetail">
                     <div className="firstSectionProfile">
