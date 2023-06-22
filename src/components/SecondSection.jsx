@@ -18,7 +18,7 @@ const ProfileCard = () => {
         <>
             <div className="mainProfileContainer">
                 <div className="profilePhoto">
-                    <img src="src/assets/Me_ProfilePic.jpg" width="400px" alt="" />
+                    <img src="assets/profile.jpg" width="400px" alt="" />
                 </div>
                 <div className="profileDetail">
                     <div className="firstSectionProfile">
