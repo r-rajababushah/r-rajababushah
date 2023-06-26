@@ -1,11 +1,14 @@
 import React from 'react'
 import "./SecondSection.scss";
 
+let imageURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
+
 const SecondSection = () => {
     return (
         <div className='SecondSection'>
             <ProfileCard />
             <SkillsCard />
+            <EducationCard />
         </div>
     )
 }
@@ -18,7 +21,7 @@ const ProfileCard = () => {
         <>
             <div className="mainProfileContainer">
                 <div className="profilePhoto">
-                    <img src="https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" width="400px" height="400px" alt="" />
+                    <img src={"src/components/assets/profile.jpg" || imageURL} width="400px" height="400px" alt="PROFILE" />
                 </div>
                 <div className="profileDetail">
                     <div className="firstSectionProfile">
@@ -116,5 +119,18 @@ const SkillsCard = () => {
                 </div>
             </div>
         </>
+    )
+}
+
+const EducationCard = () => {
+    return (
+        <div className='EducationCard'>
+            <div className="headerMains">
+                <h2>Education</h2>
+            </div>
+            <div className="cardSpaces">
+
+            </div>
+        </div>
     )
 }

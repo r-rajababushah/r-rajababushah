@@ -1,8 +1,9 @@
 import React from 'react'
+import "./LastSection.scss"
 
 const LastSection = () => {
   return (
-    <div>LastSection</div>
+    <div className='LastSection'>LastSection</div>
   )
 }
 
