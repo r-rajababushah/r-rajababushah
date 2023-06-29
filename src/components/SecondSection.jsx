@@ -9,6 +9,7 @@ const SecondSection = () => {
             <ProfileCard />
             <SkillsCard />
             <EducationCard />
+            <PortfolioCard />
         </div>
     )
 }
@@ -33,22 +34,25 @@ const ProfileCard = () => {
 
                         <hr />
                         <table>
-                            <tr>
-                                <td>Birth Date</td>
-                                <td>13th May</td>
-                            </tr>
-                            <tr>
-                                <td>Address</td>
-                                <td>New Delhi, India</td>
-                            </tr>
-                            <tr>
-                                <td>Email</td>
-                                <td>rajababushah.in@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>Phone</td>
-                                <td>+917319806300</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>Birth Date</td>
+                                    <td>13th May</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>New Delhi, India</td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td>rajababushah.in@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone</td>
+                                    <td>+917319806300</td>
+                                </tr>
+                            </tbody>
+
                         </table>
                     </div>
                     <div className="lastSectionProfile">
@@ -129,7 +133,59 @@ const EducationCard = () => {
                 <h2>Education</h2>
             </div>
             <div className="cardSpaces">
+                <div className="timeline">
+                    <div className="container left-container">
+                        <img src="src/assets/favicon.png" alt="" />
+                        <div className="text-box">
+                            <h4>Bachelors of Computer Application</h4>
+                            <p>Indira Ghandhi National Open University</p>
+                            <span className='left-container-arrow'></span>
+                        </div>
+                    </div>
+                    <div className="container right-container">
+                        <img src="src/assets/favicon.png" alt="" />
+                        <div className="text-box">
+                            <h4>10+2 PCM</h4>
+                            <p>Glacier International Secondary</p>
+                            <span className='right-container-arrow'></span>
 
+                        </div>
+                    </div>
+                    <div className="container left-container">
+                        <img src="src/assets/favicon.png" alt="" />
+                        <div className="text-box">
+                            <h4>School level</h4>
+                            <p>Shanti Nikunja Madhyamic Vidhaylaya</p>
+                            <span className='left-container-arrow'></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+const PortfolioCard = () => {
+    return (
+        <div className="PortfolioCard">
+            <div className="headerMains">
+                <h2>Portfolio</h2>
+            </div>
+            <div className="cardSpaces">
+                <nav>
+                    <h2>Projects</h2>
+                </nav>
+                <div className="projects">
+                    <div className="box">A</div>
+                    <div className="box">B</div>
+                    <div className="box">C</div>
+                    <div className="box">D</div>
+                    <div className="box">E</div>
+                    <div className="box">F</div>
+                    <div className="box">G</div>
+                    <div className="box">H</div>
+                    <div className="box">I</div>
+                </div>
             </div>
         </div>
     )
