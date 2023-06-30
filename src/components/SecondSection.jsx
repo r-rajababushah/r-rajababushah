@@ -171,6 +171,10 @@ const EducationCard = () => {
 }
 
 const PortfolioCard = () => {
+    let projectImgURL = "src/components/assets/todos.png";
+    if (navigator.onLine) {
+        projectImgURL = "https://i.ibb.co/S3yc63f/todos.png";
+    }
     return (
         <div className="PortfolioCard">
             <div className="headerMains">
@@ -182,27 +186,52 @@ const PortfolioCard = () => {
                 </nav>
                 <div className="projects">
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
-
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
-
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
-
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
-
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
-
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                     <div className="box">
-
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
                     </div>
                 </div>
             </div>
@@ -211,6 +240,11 @@ const PortfolioCard = () => {
 }
 
 const InfoCard = () => {
+    let iconURL = "src/assets/favicon.png";
+
+    if (navigator.onLine) {
+        iconURL = "https://i.ibb.co/yXsfNZq/favicon.png";
+    }
     return (
         <div className='InfoCard'>
             <div className="headerMains">
@@ -222,7 +256,7 @@ const InfoCard = () => {
                         <tbody>
                             <tr>
                                 <td>
-                                    <img src="src/assets/favicon.png" alt="" />
+                                    <img src={iconURL} alt="" />
                                 </td>
                                 <td>
                                     <h3>+917319806300</h3>
@@ -230,7 +264,7 @@ const InfoCard = () => {
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="src/assets/favicon.png" alt="" />
+                                    <img src={iconURL} alt="" />
                                 </td>
                                 <td>
                                     <h3>New Delhi, India</h3>
@@ -238,7 +272,7 @@ const InfoCard = () => {
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="src/assets/favicon.png" alt="" />
+                                    <img src={iconURL} alt="" />
                                 </td>
                                 <td>
                                     <h3>rajababushah.in@gmail.com</h3>
