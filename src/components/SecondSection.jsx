@@ -172,12 +172,9 @@ const EducationCard = () => {
 
 const PortfolioCard = () => {
     let projectImgURL = "src/components/assets/todos.png";
-
     if (navigator.onLine) {
         projectImgURL = "https://i.ibb.co/S3yc63f/todos.png";
-        console.log(navigator.onLine, "hahah");
     }
-
     return (
         <div className="PortfolioCard">
             <div className="headerMains">
@@ -189,52 +186,52 @@ const PortfolioCard = () => {
                 </nav>
                 <div className="projects">
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href={projectImgURL}><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                 </div>
             </div>
