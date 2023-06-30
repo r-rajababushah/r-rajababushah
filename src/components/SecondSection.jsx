@@ -1,7 +1,12 @@
 import React from 'react'
 import "./SecondSection.scss";
 
-let imageURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
+let imgURL = "src/components/assets/profile.jpg";
+
+if (navigator.onLine) {
+    console.log(navigator.onLine)
+    imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg"
+}
 
 const SecondSection = () => {
     return (
@@ -22,7 +27,7 @@ const ProfileCard = () => {
         <>
             <div className="mainProfileContainer">
                 <div className="profilePhoto">
-                    <img src={"https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg "} width="400px" height="400px" alt="PROFILE" />
+                    <img src={imgURL} width="400px" height="400px" alt="PROFILE" />
                 </div>
                 <div className="profileDetail">
                     <div className="firstSectionProfile">
