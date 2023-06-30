@@ -4,7 +4,7 @@ import "./SecondSection.scss";
 let imgURL = "src/components/assets/profile.jpg";
 
 if (navigator.onLine) {
-    console.log(navigator.onLine)
+    console.log("Internet avilavle ? ", navigator.onLine)
     imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg"
 }
 
