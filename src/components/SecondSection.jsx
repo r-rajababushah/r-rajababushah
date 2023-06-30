@@ -172,9 +172,12 @@ const EducationCard = () => {
 
 const PortfolioCard = () => {
     let projectImgURL = "src/components/assets/todos.png";
+
     if (navigator.onLine) {
         projectImgURL = "https://i.ibb.co/S3yc63f/todos.png";
+        console.log(navigator.onLine, "hahah");
     }
+
     return (
         <div className="PortfolioCard">
             <div className="headerMains">
