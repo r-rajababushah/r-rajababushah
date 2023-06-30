@@ -4,9 +4,7 @@ import "./SecondSection.scss";
 let imgURL = "src/components/assets/profile.jpg";
 
 if (navigator.onLine) {
-    console.log("Internet avilavle ? ", navigator.onLine)
     imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg"
-    console.clear();
 }
 
 const SecondSection = () => {
@@ -16,6 +14,7 @@ const SecondSection = () => {
             <SkillsCard />
             <EducationCard />
             <PortfolioCard />
+            <InfoCard />
         </div>
     )
 }
@@ -182,17 +181,98 @@ const PortfolioCard = () => {
                     <h2>Projects</h2>
                 </nav>
                 <div className="projects">
-                    <div className="box">A</div>
-                    <div className="box">B</div>
-                    <div className="box">C</div>
-                    <div className="box">D</div>
-                    <div className="box">E</div>
-                    <div className="box">F</div>
-                    <div className="box">G</div>
-                    <div className="box">H</div>
-                    <div className="box">I</div>
+                    <div className="box">
+                        <a href='https://r-react-todo.vercel.app/'><img src="src/components/assets/todos.png" alt="Todos" /></a>
+                    </div>
+                    <div className="box">
+
+                    </div>
+                    <div className="box">
+
+                    </div>
+                    <div className="box">
+                    </div>
+                    <div className="box">
+
+                    </div>
+                    <div className="box">
+
+                    </div>
+                    <div className="box">
+
+                    </div>
+                    <div className="box">
+
+                    </div>
                 </div>
             </div>
         </div>
+    )
+}
+
+const InfoCard = () => {
+    return (
+        <div className='InfoCard'>
+            <div className="headerMains">
+                <h2>Info</h2>
+            </div>
+            <div className="cardSpaces">
+                <div className="infos">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="src/assets/favicon.png" alt="" />
+                                </td>
+                                <td>
+                                    <h3>+917319806300</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="src/assets/favicon.png" alt="" />
+                                </td>
+                                <td>
+                                    <h3>New Delhi, India</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="src/assets/favicon.png" alt="" />
+                                </td>
+                                <td>
+                                    <h3>rajababushah.in@gmail.com</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="src/assets/favicon.png" alt="" />
+                                </td>
+                                <td>
+                                    <h3>https://rajababushah.vercel.com</h3>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div className="formContact">
+                    <form>
+                        <label htmlFor="name">
+                            Name <br />
+                            <input type="text" name="name" id="name" /> <br />
+                        </label>
+                        <label htmlFor="email">
+                            Email <br />
+                            <input type="email" id='email' /> <br />
+                        </label>
+                        <label htmlFor="message">
+                            Message <br />
+                            <textarea name="" id="message" height="30px"></textarea> <br />
+                        </label>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div >
     )
 }
