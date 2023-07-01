@@ -277,7 +277,7 @@ const InfoCard = () => {
                             </tr>
                             <tr>
                                 <td>
-                                    <img src="src/assets/favicon.png" alt="" />
+                                    <img src={iconURL} alt="" />
                                 </td>
                                 <td>
                                     <h3>https://rajababushah.vercel.com</h3>
