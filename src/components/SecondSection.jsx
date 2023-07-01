@@ -186,52 +186,49 @@ const PortfolioCard = () => {
                 </nav>
                 <div className="projects">
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href='https://r-react-todo.vercel.app/' target='_blank'><img src={projectImgURL} alt="Todos" /></a>
                     </div>
                     <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
-                    </div>
-                    <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt=" Todos" /></a>
-                    </div>
-                    <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
-                    </div>
-                    <div className="box">
-                        <a href='https://r-react-todo.vercel.app/'><img src={projectImgURL} alt="Todos" /></a>
+                        <a href="https://github.com/r.rajababushah/" target='_blank'>
+                            <div className="checkoutMore">
+                                <button>
+                                    Checkout github for more
+                                </button>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -248,7 +245,7 @@ const InfoCard = () => {
     return (
         <div className='InfoCard'>
             <div className="headerMains">
-                <h2>Info</h2>
+                <h2>Contact</h2>
             </div>
             <div className="cardSpaces">
                 <div className="infos">
@@ -293,15 +290,15 @@ const InfoCard = () => {
                     <form>
                         <label htmlFor="name">
                             Name <br />
-                            <input type="text" name="name" id="name" /> <br />
+                            <input type="text" name="name" id="name" required /> <br />
                         </label>
                         <label htmlFor="email">
                             Email <br />
-                            <input type="email" id='email' /> <br />
+                            <input type="email" id='email' required /> <br />
                         </label>
                         <label htmlFor="message">
                             Message <br />
-                            <textarea name="" id="message" height="30px"></textarea> <br />
+                            <textarea name="" id="message" height="30px" required></textarea> <br />
                         </label>
                         <button type="submit">Submit</button>
                     </form>
