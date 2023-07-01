@@ -12,7 +12,7 @@ const FirstSection = () => {
                 </div>
                 <div className="lastM">
                     <ul>
-                        <li><a href="">Twitter</a></li>
+                        <li><a href="https://twitter.com/Rajababushah_" target='_blank'>Twitter</a></li>
                         <li><a href="">Google</a></li>
                         <li><a href="">Linkedin</a></li>
                         <li><a href="">Github</a></li>

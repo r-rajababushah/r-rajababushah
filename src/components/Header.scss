@@ -1,17 +1,27 @@
-.nav {
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    padding: 0px 50px;
+$boxshadow : 0 2px 10px 0 rgba(0, 0, 0, 0.52);
+
+@mixin flexthedisplay {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+}
+
+.nav {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 50px;
+    @include flexthedisplay();
+    justify-content: space-between;
+    box-shadow: $boxshadow;
 
     label.title {
         line-height: 60px;
-        font-size: 34px;
-        font-weight: 700;
         letter-spacing: 2px;
+
+        font: {
+            size: 34px;
+            weight: 700;
+        }
 
         a {
             color: rgb(81, 201, 161);
@@ -39,43 +49,6 @@
 
 }
 
-
-@media screen and (max-width: 715px) and (min-width: 416px) {
-    nav {
-        background-color: blue;
-        width: 100%;
-        overflow: hidden;
-    }
-}
-
-
-@media screen and (max-width: 415px) {
-    .nav {
-        width: 98%;
-        background-color: red;
-        padding: 0px 5px;
-
-        label.title {
-            line-height: 40px;
-            font-size: 24px;
-            font-weight: 700;
-        }
-
-        ul {
-            li {
-                display: none;
-            }
-        }
-
-        a {
-            font-size: 30px;
-        }
-
-    }
-}
-
-@media screen and (max-width: 156px) {
-    * {
-        display: none;
-    }
+@media only screen and (max-width: 600px) {
+    
 }

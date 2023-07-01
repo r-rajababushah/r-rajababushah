@@ -1,15 +1,19 @@
-import './App.css'
-import React from 'react'
-import Header from './components/Header'
-import Home from './components/Home'
+import React from 'react';
+import Header from './components/Header';
+import FirstSection from './components/FirstSection';
+import SecondSection from './components/SecondSection';
+import LastSection from './components/LastSection';
+import "./App.css";
 
 function App() {
     return (
         <>
             <Header />
-            <Home />
+            <FirstSection />
+            <SecondSection />
+            <LastSection />
         </>
-    )
+    );
 }
 
-export default App
+export default App;
