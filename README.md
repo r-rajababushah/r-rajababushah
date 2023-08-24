@@ -1,5 +1,5 @@
  <p align="center" width="100%">
-    <img width="300" src="https://github.com/r-rajababushah/image-files/blob/master/profile.gif">
+    <img width="300" src="https://github.com/r-rajababushah/Images/blob/master/profile.gif">
 </p>
 <H1> 👨‍💻 Profile </H1>
 <h3 align="center">Hi 👋, I'm &#60;Rahul Ali/&#62; , A &#60;code-passionate&#62;&#60;/code-passionate&#62; Frontend Web Developer.</h3>
@@ -23,7 +23,7 @@
 <H3> I am a die hard Javascript Fanboy and One thing you should know about JavaScript is :</H3>
  <H5> JavaScript is the only language that I’m aware of that people feel they don’t need to learn before they start using it.  - Douglas Crockford</H5>
 
- <img height="200" src="https://raw.githubusercontent.com/r-rajababushah/image-files/main/exampul.webp"/>  
+ <img height="200" src="https://raw.githubusercontent.com/r-rajababushah/Images/main/exampul.webp"/>  
 </p>
 
 
@@ -33,14 +33,14 @@
 
 
 
-<img aling="left" width="200" src="https://github.com/r-rajababushah/image-files/blob/main/black.png" width="40%"/>
+<img aling="left" width="200" src="https://github.com/r-rajababushah/Images/blob/main/black.png" width="40%"/>
 </a>
 
 <a href="#" >
     
 
     
-<img aling="right" width="200" src="https://github.com/r-rajababushah/image-files/blob/main/white.png" width="40%"/>
+<img aling="right" width="200" src="https://github.com/r-rajababushah/Images/blob/main/white.png" width="40%"/>
 </a>
 
 ## ⚡ TechStack
