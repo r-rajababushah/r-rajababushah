@@ -1,11 +1,10 @@
  <p align="center" width="100%">
-    <img width="300" src="https://github.com/r-rajababushah/Images/blob/master/profile.gif">
-    <img width="300" src="https://github.com/Rahulfordev/img-file/blob/main/profile.gif">
+    <img width="300" src="https://github.com/r-rajababushah/img-file/blob/main/profile.gif">
 </p>
 <H1> 👨‍💻 Profile </H1>
-<h3 align="center">Hi 👋, I'm &#60;Rahul Ali/&#62; , A &#60;code-passionate&#62;&#60;/code-passionate&#62; Frontend Web Developer.</h3>
+<h3 align="center">Hi 👋, I'm &#60;Rajababu Shah/&#62; , A &#60;code-passionate&#62;&#60;/code-passionate&#62; Web Developer.</h3>
 
-<h4 align = "center" >I am currently doing react.js.I Consider myself as a skilled JavaScript Developer.I like problems as they enable us to change our way of thinking.</h4>
+<h4 align = "center" >I am currently doing React.js and Node.js. I Consider myself as a skilled JavaScript Developer.I like problems as they enable us to change our way of thinking.</h4>
 
 
  - 👀 &nbsp; I’m interested in **learning technical stuffs** and **building real-world applications**
@@ -48,6 +47,7 @@
 
 #### Front-end
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NextJs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=cyan)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -88,11 +88,11 @@
 
 ## 📈 Stats
 <a href="#">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Rahulfordev&show_icons=true&count_private=true&theme=github_dark&bg_color=00000000&border_radius=6px&border_color=30363d" width="50.5%" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=r-rajababushah&show_icons=true&count_private=true&theme=github_dark&bg_color=00000000&border_radius=6px&border_color=30363d" width="50.5%" />
 </a>
 
 <a href="#" style="margin-bottom:15px">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahulfordev&count_private=true&theme=github_dark&layout=compact&bg_color=00000000&border_radius=6px&border_color=30363d" width="42%" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=r-rajababushah&count_private=true&theme=github_dark&layout=compact&bg_color=00000000&border_radius=6px&border_color=30363d" width="42%" />
 </a>
 
 <br/>
