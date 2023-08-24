@@ -1,5 +1,5 @@
  <p align="center" width="100%">
-    <img width="300" src="https://github.com/r-rajababushah/image-filesprofile.gif">
+    <img width="300" src="https://github.com/r-rajababushah/image-files/master/profile.gif">
 </p>
 <H1> 👨‍💻 Profile </H1>
 <h3 align="center">Hi 👋, I'm &#60;Rahul Ali/&#62; , A &#60;code-passionate&#62;&#60;/code-passionate&#62; Frontend Web Developer.</h3>
@@ -33,14 +33,14 @@
 
 
 
-<img aling="left" width="200" src="https://github.com/r-rajababushah/image-filesblack.png" width="40%"/>
+<img aling="left" width="200" src="https://github.com/r-rajababushah/image-files/black.png" width="40%"/>
 </a>
 
 <a href="#" >
     
 
     
-<img aling="right" width="200" src="https://github.com/r-rajababushah/image-fileswhite.png" width="40%"/>
+<img aling="right" width="200" src="https://github.com/r-rajababushah/image-files/white.png" width="40%"/>
 </a>
 
 ## ⚡ TechStack
