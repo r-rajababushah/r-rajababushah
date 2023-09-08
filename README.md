@@ -2,7 +2,8 @@
     <img width="300" src="https://github.com/r-rajababushah/img-file/blob/master/profile.gif">
 </p>
 <H1> 👨‍💻 Profile </H1>
-<h3 align="center">Hi 👋, I'm &#60;Rajababu Shah/&#62; , A &#60;code-passionate&#62;&#60;/code-passionate&#62; Web Developer.</h3>
+<h3 align="center">Hi 👋, I'm &#60;Rajababu Shah/&#62; ,
+ A &#60;code-passionate&#62;&#60;/code-passionate&#62; Web Developer.</h3>
 
 <h4 align = "center" >I am currently doing React.js and Node.js. I Consider myself as a skilled JavaScript Developer.I like problems as they enable us to change our way of thinking.</h4>
 
