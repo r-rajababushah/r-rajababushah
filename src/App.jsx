@@ -1,17 +1,18 @@
 import React from 'react';
-import Header from './components/Header';
 import FirstSection from './components/FirstSection';
 import SecondSection from './components/SecondSection';
 import LastSection from './components/LastSection';
 import "./App.css";
+import Header from './components/Header/Header';
 
 function App() {
     return (
         <>
             <Header />
             <FirstSection />
+
             <SecondSection />
-            <LastSection />
+            <LastSection /> 
         </>
     );
 }

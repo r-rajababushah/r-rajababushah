@@ -1,10 +1,13 @@
 import React from 'react'
 import "./SecondSection.scss";
+import ProfileCard from './ProfileCard';
 
-let imgURL = "src/components/assets/profile.jpg";
+let imgURL;
 
 if (navigator.onLine) {
     imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg"
+}else {
+    imgURL = "src/components/assets/profile.jpg";
 }
 
 const SecondSection = () => {
@@ -21,53 +24,6 @@ const SecondSection = () => {
 
 export default SecondSection;
 
-
-const ProfileCard = () => {
-    return (
-        <>
-            <div className="mainProfileContainer">
-                <div className="profilePhoto">
-                    <img src={imgURL} width="400px" height="400px" alt="PROFILE" />
-                </div>
-                <div className="profileDetail">
-                    <div className="firstSectionProfile">
-                        <h3>Hello & Welcome</h3>
-                    </div>
-                    <div className="secondSectionProfile">
-                        <h3>I'M RAJABABU SHAH </h3> <br />
-                        <h5>Developing Web Application</h5>
-
-                        <hr />
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Birth Date</td>
-                                    <td>13th May</td>
-                                </tr>
-                                <tr>
-                                    <td>Address</td>
-                                    <td>New Delhi, India</td>
-                                </tr>
-                                <tr>
-                                    <td>Email</td>
-                                    <td>rajababushah.in@gmail.com</td>
-                                </tr>
-                                <tr>
-                                    <td>Phone</td>
-                                    <td>+917319806300</td>
-                                </tr>
-                            </tbody>
-
-                        </table>
-                    </div>
-                    <div className="lastSectionProfile">
-                        THE ENDING, TO ALL STORIES IS WRITTEN BY DESTINY
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
 
 const SkillsCard = () => {
     return (
