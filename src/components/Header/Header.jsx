@@ -3,6 +3,7 @@ import "./Header.scss";
 import { Link, Outlet } from 'react-router-dom';
 
 function Header() {
+    
     return (
         <div className="header" id='home'>
             <nav className="nav" name="#home">
