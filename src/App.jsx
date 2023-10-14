@@ -1,18 +1,21 @@
 import React from 'react';
-import FirstSection from './components/FirstSection';
-import SecondSection from './components/SecondSection';
-import LastSection from './components/LastSection';
-import "./App.css";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
+import Home from './pages/Homepage/Home';
+import Skills from './pages/Skillspage/Skills';
+import "./App.css";
 
 function App() {
     return (
         <>
-            <Header />
-            <FirstSection />
-
-            <SecondSection />
-            <LastSection /> 
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Header />}>
+                        <Route index element={<Home />} />
+                        <Route path='/skills' element={<Skills />} />
+                    </Route>
+                </Routes>
+            </BrowserRouter>
         </>
     );
 }

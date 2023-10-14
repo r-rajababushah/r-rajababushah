@@ -1,5 +1,5 @@
-$boxshadow : 0 2px 10px 0 rgba(0, 0, 0, 0.52);
-$skycolor: rgb(81, 201, 161);
+$boxshadow : 0 2px 10px 0 rgba(0, 215, 252, 0.52);
+$skycolor: rgb(0, 236, 232);
 
 @mixin flexthedisplay {
     display: flex;
@@ -13,7 +13,6 @@ $skycolor: rgb(81, 201, 161);
         padding: 0px 50px;
         @include flexthedisplay();
         justify-content: space-between;
-        box-shadow: $boxshadow;
 
         label.title {
             line-height: 60px;
@@ -39,7 +38,7 @@ $skycolor: rgb(81, 201, 161);
                 a {
                     font-size: 16px;
                     letter-spacing: 1px;
-                    color: #000;
+                    color: #fff;
                 }
 
                 a:hover {
@@ -58,7 +57,6 @@ $skycolor: rgb(81, 201, 161);
         padding: 5px 25px !important;
         display: flex;
         flex-flow: row wrap;
-        box-shadow: $boxshadow;
 
         label.title {
             line-height: 40px;
@@ -82,11 +80,12 @@ $skycolor: rgb(81, 201, 161);
             line-height: 20px;
 
             li {
-                margin: auto 2px;
+                margin: auto 4px auto 0px;
+                padding: 1px;
 
                 a {
                     font-size: 16px;
-                    color: #000;
+                    color: #fff;
                 }
 
                 a:hover {

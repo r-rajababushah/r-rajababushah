@@ -1,18 +1,96 @@
+$skycolor: rgb(0, 236, 232);
+
 @media screen and (min-width: 320px) and (max-width: 426px) {
-    .first-section {
-        background-color: #0eb57d;
+    .Home {
+        background-color: #000000;
+        color: white;
+        border-radius: 5px;
+        margin: 5px;
 
-        .profile-summary {
+        .profile-intro {
+            margin: 5px 10px;
+            text-align: center;
 
-            h2,
-            h4 {
-                color: white;
-                text-align: center;
+            h2 {
+                font-size: 35px;
+                color: rgb(4, 255, 4);
+                margin: 5px;
+                padding-top: 10px;
             }
+
+            h5 {
+                color: red;
+            }
+        }
+
+        .profile-card {
+            display: flex;
+            justify-content: center;
+
+            #profile-img {
+                height: 380px;
+                width: 380px;
+                border-radius: 10px;
+            }
+        }
+
+        .profile-details {
+            padding: 10px;
+            margin-top: 10px;
+
+            h4 {
+                color: yellow;
+            }
+
+            h2 {
+                color: $skycolor;
+
+            }
+
+            h5 {
+                color: yellow;
+                margin-bottom: 10px;
+            }
+
+            table,
+            th,
+            tr,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            table {
+                width: 100%;
+                margin: 10px auto;
+
+                tbody {
+                    tr {
+                        td {
+                            padding: 2px 1px;
+                        }
+
+                        td.index {
+                            color: rgb(17, 255, 0);
+                        }
+
+                        td.value {
+                            color: rgb(17, 255, 0);
+                        }
+                    }
+                }
+            }
+
+            q.quote {
+                font-size: 14.5px;
+                color: $skycolor;
+                font-weight: 500;
+            }
+
+
         }
     }
 }
-
 
 
 @media screen and (min-width: 426px) and (max-width: 1440px) {
@@ -33,7 +111,7 @@
                 text-transform: uppercase;
             }
 
-            h4 {
+            h5 {
                 color: #ffffff;
                 font-size: 20px;
             }
