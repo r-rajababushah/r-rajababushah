@@ -24,7 +24,7 @@
 <H3> I am a die hard Javascript Fanboy and One thing you should know about JavaScript is :</H3>
  <H5> JavaScript is the only language that I’m aware of that people feel they don’t need to learn before they start using it.  - Douglas Crockford</H5>
 
- <img height="200" src="https://raw.githubusercontent.com/r-rajababushah/Images/main/exampul.webp"/>  
+ <img height="200" src="https://raw.githubusercontent.com/r-rajababushah/img-file/master/exampul.webp"/>  
 </p>
 
 
