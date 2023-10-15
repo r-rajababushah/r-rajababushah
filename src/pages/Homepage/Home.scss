@@ -94,6 +94,10 @@ $skycolor: rgb(0, 236, 232);
 
 
 @media screen and (min-width: 426px) and (max-width: 1440px) {
+
+    img {
+        width: 360px;
+    }
     .first-section {
         background-color: #0eb57d;
         padding: 2px 200px;
@@ -144,61 +148,4 @@ $skycolor: rgb(0, 236, 232);
             }
         }
     }
-
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
-        .first-section {
-            height: 100px;
-            width: 100%;
-
-            .profile-summary {
-                display: none;
-            }
-
-            .social-links {
-                display: none;
-            }
-        }
-    }
-
-    // /* Small devices (portrait tablets and large phones, 600px and up) */
-    // @media only screen and (min-width: 600px) {...}
-
-    // /* Medium devices (landscape tablets, 768px and up) */
-    // @media only screen and (min-width: 768px) {...}
-
-    // /* Large devices (laptops/desktops, 992px and up) */
-    // @media only screen and (min-width: 992px) {...}
-
-    // /* Extra large devices (large laptops and desktops, 1200px and up) */
-    // @media only screen and (min-width: 1200px) {...}
-
-    // @media only screen and (max-width: 600px) {
-    //     .firstSection {
-    //         height: 150px;
-    //         width: 100%;
-    //         padding: 0;
-
-    //         .profile-summary {
-    //             width: 100%;
-    //             display: flex;
-    //             justify-content: space-between;
-    //             padding: 10px;
-
-    //             h2 {
-    //                 font-weight: 100;
-    //                 font-size: 25px;
-    //             }
-
-    //             h4 {
-    //                 font-size: 18px;
-    //                 font-weight: 100;
-    //             }
-    //         }
-    //     }
-
-    //     .social-links {
-    //         display: none;
-    //     }
-    // }
 }

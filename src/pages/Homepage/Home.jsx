@@ -11,7 +11,7 @@ const Home = () => {
                 <h5>Frontend Web Developer</h5>
             </nav>
             <div className="profile-card">
-                <img src={imgURL} height={380} id='profile-img' alt="PROFILE" />
+                <img src={imgURL}  id='profile-img' alt="PROFILE" />
             </div>
             <div className="profile-details">
                 <h4>Hello & Welcome</h4>

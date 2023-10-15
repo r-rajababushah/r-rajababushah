@@ -1,0 +1,40 @@
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .skills {
+        p.skills-intro {
+            margin: 15px;
+            text-align: justify;
+            font-size: 15px;
+        }
+
+        hr {
+            width: 80%;
+            margin: 0px auto;
+        }
+
+        .skills-bars {
+            margin: 15px;
+
+            .skill {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 5px;
+
+                p {
+                    color: yellow;
+                }
+            }
+
+            .bar {
+                margin-top: 5px;
+
+                progress {
+                    width: 100%;
+                    height: 15px;
+
+                }
+            }
+        }
+    }
+}

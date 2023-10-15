@@ -11,12 +11,12 @@ function Header() {
                 <ul>
                     <li><Link to="/">HOME</Link></li>
                     <li><Link to="/skills">SKILLS</Link></li>
-                    <li><a href="#education">EDUCATION</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><Link to="/education">EDUCATION</Link></li>
+                    <li><Link to="/portfolio">PORTFOLIO</Link></li>
+                    <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
             </nav>
-            <hr style={{}} />
+            <hr style={{width: "80%", margin: "0px auto"}} />
             <Outlet />
         </div>
     )
