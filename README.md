@@ -34,14 +34,14 @@
 
 
 
-<img aling="left" width="200" src="https://github.com/r-rajababushah/Images/blob/main/black.png" width="40%"/>
+<img aling="left" width="200" src="https://github.com/r-rajababushah/img-file/blob/master/black.png" width="40%"/>
 </a>
 
 <a href="#" >
     
 
     
-<img aling="right" width="200" src="https://github.com/r-rajababushah/Images/blob/main/white.png" width="40%"/>
+<img aling="right" width="200" src="https://github.com/r-rajababushah/img-file/blob/master/white.png" width="40%"/>
 </a>
 
 ## ⚡ TechStack
