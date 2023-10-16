@@ -2,7 +2,8 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
-    const imgURL = (navigator.onLine) ? "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" : "src/components/assets/profile.jpg";
+    const imgURL = (false) ? "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" : "src/components/assets/profile.jpg";
+    
 
     return (
         <div className='Home' id='Home'>
