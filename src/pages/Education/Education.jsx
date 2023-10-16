@@ -4,7 +4,6 @@ import SecondSection from '../../components/SecondSection';
 function Education() {
     return (
         <div>
-            Education
             <SecondSection />
         </div>
     )

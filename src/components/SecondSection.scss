@@ -6,20 +6,24 @@
 }
 
 .EducationCard {
+    background-color: #000;
     .cardSpaces {
         margin: 40px;
         height: 500px;
         padding: 20px;
         display: flex;
         color: #000;
+        background-color: #000;
 
         .timeline {
             position: relative;
             margin: 1px auto;
+            background-color: #000;
 
             .container {
                 padding: 20px;
                 position: relative;
+                background-color: #000;
 
 
                 .text-box {
@@ -27,7 +31,7 @@
                     background-color: #fff;
                     position: relative;
                     border-radius: 6px;
-                    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.52);
+                    box-shadow: 0 2px 10px 0 rgba(255, 255, 255, 0.52);
                     letter-spacing: 1px;
 
                     h4 {
@@ -42,7 +46,7 @@
                         margin: 2.5px auto 15px auto;
                         font-size: 13px;
                         font-weight: 500;
-                        color: #666666;
+                        color: #000;
                         text-transform: uppercase;
                     }
 

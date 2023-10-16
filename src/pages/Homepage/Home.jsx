@@ -34,7 +34,7 @@ const Home = () => {
                         </tr>
                         <tr>
                             <td className='index'>Phone</td>
-                            <td className='value'>+917319806300</td>
+                            <td className='value'>(+91)7319806300</td>
                         </tr>
                     </tbody>
                 </table>
