@@ -2,7 +2,7 @@ import React from 'react';
 import "./Education.scss";
 
 function Education() {
-    let imgURL = (navigator.onLine) ? "https://github.com/r-rajababushah/r-rajababushah.github.io/blob/master/src/assets/favicon.png" : "src/assets/favicon.png";
+    let imgURL = "public/timeline-logo.png";
     
     return (
         <div className='education'>
