@@ -2,7 +2,7 @@ import React from 'react';
 import "./Education.scss";
 
 function Education() {
-    let imgURL = "public/timeline-logo.png";
+    let imgURL = "/timeline-logo.png";
     
     return (
         <div className='education'>
