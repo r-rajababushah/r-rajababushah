@@ -4,33 +4,32 @@ import "./Portfolio.scss";
 
 
 function Portfolio() {
-    let imgURL = "";
+    let imgURL = "/static/todos.png";
     return (
 
         <div className='portfolio'>
-            <img src="src/components/assets/todos.png" alt="" />
             <div className="projects-cards">
                 <div className="project-card">
                     <div className="project-img">
-                        <img src="src/components/assets/todos.png" alt="" />
+                        <img src={imgURL} alt="" />
                     </div>
                     <div className="project-description">ImgDESC</div>
                 </div>
                 <div className="project-card">
                     <div className="project-img">
-                        <img src="src/components/assets/todos.png" alt="" />
+                        <img src={imgURL} alt="" />
                     </div>
                     <div className="project-description">ImgDESC</div>
                 </div>
                 <div className="project-card">
                     <div className="project-img">
-                        <img src="src/components/assets/todos.png" alt="" />
+                        <img src={imgURL} alt="" />
                     </div>
                     <div className="project-description">ImgDESC</div>
                 </div>
                 <div className="project-card">
                     <div className="project-img">
-                        <img src="src/components/assets/todos.png" alt="" />
+                        <img src={imgURL} alt="" />
                     </div>
                     <div className="project-description">ImgDESC</div>
                 </div>

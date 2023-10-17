@@ -2,12 +2,13 @@ import React from 'react';
 import "./Contact.scss";
 
 function Contact() {
+    let imgURL = "/static/favicon.png";
     return (
         <div className='contact'>
             <div className="contact-info">
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src="src/assets/favicon.png" alt="png" />
+                        <img src={imgURL} alt="png" />
                     </div>
                     <div className="contact-data">
                         <h3>(+91) 7319806300</h3>
@@ -15,7 +16,7 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src="src/assets/favicon.png" alt="png" />
+                        <img src={imgURL} alt="png" />
                     </div>
                     <div className="contact-data">
                         <h3>New Delhi, India</h3>
@@ -23,7 +24,7 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src="src/assets/favicon.png" alt="png" />
+                        <img src={imgURL} alt="png" />
                     </div>
                     <div className="contact-data">
                         <h3>rajababushah.in@gmail.com</h3>
@@ -31,7 +32,7 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src="src/assets/favicon.png" alt="png" />
+                        <img src={imgURL} alt="png" />
                     </div>
                     <div className="contact-data">
                         <h3>https://rajababushah.vercel.com</h3>
