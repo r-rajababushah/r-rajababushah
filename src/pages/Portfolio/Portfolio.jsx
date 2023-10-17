@@ -6,7 +6,9 @@ import "./Portfolio.scss";
 function Portfolio() {
     let imgURL = "";
     return (
+
         <div className='portfolio'>
+            <img src="src/components/assets/todos.png" alt="" />
             <div className="projects-cards">
                 <div className="project-card">
                     <div className="project-img">
