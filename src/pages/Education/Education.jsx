@@ -2,11 +2,13 @@ import React from 'react';
 import "./Education.scss";
 
 function Education() {
+    let imgURL = (navigator.onLine) ? "https://github.com/r-rajababushah/r-rajababushah.github.io/blob/master/src/assets/favicon.png" : "src/assets/favicon.png";
+    
     return (
         <div className='education'>
             <div className="timeline">
                 <div className="container right-container">
-                    <img src="src/assets/favicon.png" alt="" />
+                    <img src={imgURL} alt="" />
                     <div className="text-box">
                         <h4>Bachelors of Computer Application</h4>
                         <p>Indira Ghandhi National Open University</p>
@@ -14,7 +16,7 @@ function Education() {
                     </div>
                 </div>
                 <div className="container right-container">
-                    <img src="src/assets/favicon.png" alt="" />
+                    <img src={imgURL} alt="" />
                     <div className="text-box">
                         <h4>10+2 PCM</h4>
                         <p>Glacier International Secondary School</p>
@@ -23,7 +25,7 @@ function Education() {
                     </div>
                 </div>
                 <div className="container right-container">
-                    <img src="src/assets/favicon.png" alt="" />
+                    <img src={imgURL} alt="" />
                     <div className="text-box">
                         <h4>School level</h4>
                         <p>Shanti Nikunja Madhyamic Vidhaylaya</p>

@@ -2,7 +2,7 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
-    const imgURL = (false) ? "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" : "src/components/assets/profile.jpg";
+    const imgURL = (navigator.onLine) ? "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" : "src/components/assets/profile.jpg";
     
 
     return (
