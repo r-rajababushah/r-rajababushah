@@ -5,14 +5,17 @@ const Home = () => {
     const imgURL = "/static/profile.jpg";
 
     return (
-        <div className='Home' id='Home'>
-            <nav className='profile-intro'>
+        <div className='Home'>
+
+            <div className='profile-intro'>
                 <h2>Rajababu Shah</h2>
                 <h5>Frontend Web Developer</h5>
-            </nav>
+            </div>
+
             <div className="profile-card">
                 <img src={imgURL} id='profile-img' alt="PROFILE" />
             </div>
+
             <div className="profile-details">
                 <h4>Hello & Welcome</h4>
                 <h2>I'm Rajababu Shah</h2>
@@ -22,20 +25,38 @@ const Home = () => {
                     <tbody>
                         <tr>
                             <td className='index'>
+                                <span className='icon'>
+                                    <i className="fa-solid fa-calendar-day"></i>
+                                </span>
                                 Birth Date
                             </td>
                             <td className='value'>13th May</td>
                         </tr>
                         <tr>
-                            <td className='index'>Address</td>
+                            <td className='index'>
+                                <span className="icon">
+                                    <i className="fa-solid fa-location-arrow"></i>
+                                </span>
+                                Address
+                            </td>
                             <td className='value'>New Delhi, India</td>
                         </tr>
                         <tr>
-                            <td className='index'>Email</td>
+                            <td className='index'>
+                                <span className="icon">
+                                    <i className="fa-solid fa-at"></i>
+                                </span>
+                                Email
+                            </td>
                             <td className='value'>rajababushah.in@gmail.com</td>
                         </tr>
                         <tr>
-                            <td className='index'>Phone</td>
+                            <td className='index'>
+                                <span className="icon">
+                                    <i className="fa-solid fa-phone-volume"></i>
+                                </span>
+                                Phone
+                            </td>
                             <td className='value'>(+91)7319806300</td>
                         </tr>
                     </tbody>

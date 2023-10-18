@@ -73,7 +73,6 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <hr style={{ width: "80%", margin: "0px auto" }} />
             <Outlet />
         </div >
     )
