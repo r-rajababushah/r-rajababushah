@@ -1,151 +1,158 @@
 $skycolor: rgb(0, 236, 232);
 
-@media screen and (min-width: 320px) and (max-width: 426px) {
-    .Home {
-        background-color: #000000;
-        color: white;
-        border-radius: 5px;
-        margin: 5px;
+// @media screen and (min-width: 320px) and (max-width: 426px) {}
 
-        .profile-intro {
-            margin: 5px 10px;
-            text-align: center;
+.Home {
+    border-radius: 5px;
+    margin: 5px;
 
-            h2 {
-                font-size: 35px;
-                color: rgb(4, 255, 4);
-                margin: 5px;
-                padding-top: 10px;
-            }
+    .profile-intro {
+        margin: 5px 10px;
+        text-align: center;
 
-            h5 {
-                color: red;
-            }
+        h2 {
+            font-size: 35px;
+            color: rgb(4, 255, 4);
+            margin: 5px;
+            padding-top: 10px;
         }
 
-        .profile-card {
-            display: flex;
-            justify-content: center;
-
-            #profile-img {
-                height: 380px;
-                width: 380px;
-                border-radius: 10px;
-            }
-        }
-
-        .profile-details {
-            padding: 10px;
-            margin-top: 10px;
-
-            h4 {
-                color: yellow;
-            }
-
-            h2 {
-                color: $skycolor;
-
-            }
-
-            h5 {
-                color: yellow;
-                margin-bottom: 10px;
-            }
-
-            table,
-            th,
-            tr,
-            td {
-                border: 1px solid black;
-                border-collapse: collapse;
-            }
-
-            table {
-                width: 100%;
-                margin: 10px auto;
-
-                tbody {
-                    tr {
-                        td {
-                            padding: 2px 1px;
-                        }
-
-                        td.index {
-                            color: rgb(17, 255, 0);
-                        }
-
-                        td.value {
-                            color: rgb(17, 255, 0);
-                        }
-                    }
-                }
-            }
-
-            q.quote {
-                font-size: 14.5px;
-                color: $skycolor;
-                font-weight: 500;
-            }
-
-
+        h5 {
+            color: red;
         }
     }
-}
 
-
-@media screen and (min-width: 426px) and (max-width: 1440px) {
-
-    img {
-        width: 360px;
-    }
-    .first-section {
-        background-color: #0eb57d;
-        padding: 2px 200px;
+    .profile-card {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        height: 350px;
+        justify-content: center;
 
-        .profile-summary {
-            display: block;
+        #profile-img {
+            height: 380px;
+            width: 380px;
+            border-radius: 10px;
+        }
+    }
 
-            h2 {
-                color: #ffffff;
-                font-size: 32px;
-                text-transform: uppercase;
-            }
+    .profile-details {
+        padding: 10px;
+        margin-top: 10px;
 
-            h5 {
-                color: #ffffff;
-                font-size: 20px;
-            }
+        h4 {
+            color: yellow;
         }
 
-        .social-links {
-            padding-top: 15px;
+        h2 {
+            color: $skycolor;
 
-            ul {
-                display: flex;
+        }
 
+        h5 {
+            color: yellow;
+            margin-bottom: 10px;
+        }
 
-                li {
-                    margin: auto 10px;
-                    padding: 3px 5px;
-                    border-radius: 25px;
-                    text-align: center;
-                    background-color: #000000;
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
 
-                    a {
-                        margin: auto 10px;
-                        height: 50px;
-                        width: 50px;
-                        text-decoration: none;
-                        color: #ffffff;
-                        text-transform: none;
+        table {
+            width: 100%;
+            margin: 10px auto;
+
+            tbody {
+                tr {
+                    display: flex;
+
+                    td {
+                        padding: 2px 1px;
+
+                        .icon {
+                            background-image: url('/public/static/date.png');
+                            background-size: cover;
+                            height: 20px;
+                            width: 20px;
+                        }
                     }
 
+                    td.index {
+                        color: rgb(17, 255, 0);
+                    }
+
+                    td.value {
+                        color: rgb(17, 255, 0);
+                    }
                 }
             }
         }
+
+        q.quote {
+            font-size: 14.5px;
+            color: $skycolor;
+            font-weight: 500;
+        }
+
+
     }
 }
+
+
+@media screen and (min-width: 426px) and (max-width: 1440px) {}
+
+//     img {
+//         width: 360px;
+//     }
+//     .first-section {
+//         background-color: #0eb57d;
+//         padding: 2px 200px;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: flex-start;
+//         height: 350px;
+
+//         .profile-summary {
+//             display: block;
+
+//             h2 {
+//                 color: #ffffff;
+//                 font-size: 32px;
+//                 text-transform: uppercase;
+//             }
+
+//             h5 {
+//                 color: #ffffff;
+//                 font-size: 20px;
+//             }
+//         }
+
+//         .social-links {
+//             padding-top: 15px;
+
+//             ul {
+//                 display: flex;
+
+
+//                 li {
+//                     margin: auto 10px;
+//                     padding: 3px 5px;
+//                     border-radius: 25px;
+//                     text-align: center;
+//                     background-color: #000000;
+
+//                     a {
+//                         margin: auto 10px;
+//                         height: 50px;
+//                         width: 50px;
+//                         text-decoration: none;
+//                         color: #ffffff;
+//                         text-transform: none;
+//                     }
+
+//                 }
+//             }
+//         }
+//     }
+// }

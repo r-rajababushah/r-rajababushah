@@ -1,24 +1,81 @@
 import React from 'react'
+import { NavLink, Outlet } from 'react-router-dom';
 import "./Header.scss";
-import { Link, Outlet } from 'react-router-dom';
 
 function Header() {
-    
+
+    let activeNav = "rgb(0, 236, 232)";
+
     return (
-        <div className="header" id='home'>
+        <div className="header">
             <nav className="nav" name="#home">
                 <label htmlFor="title" className='title'><a href=''>Portfolio</a></label>
                 <ul>
-                    <li><Link to="/">HOME</Link></li>
-                    <li><Link to="/skills">SKILLS</Link></li>
-                    <li><Link to="/education">EDUCATION</Link></li>
-                    <li><Link to="/portfolio">PROJECTS</Link></li>
-                    <li><Link to="/contact">CONTACT</Link></li>
+                    <li>
+                        <NavLink
+                            to="/"
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? activeNav : "yellow",
+                                }
+                            }}
+                        >
+                            HOME
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/skills"
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? activeNav : "yellow",
+                                }
+                            }}
+                        >
+                            SKILLS
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/education"
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? activeNav : "yellow",
+                                }
+                            }}
+                        >
+                            EDUCATION
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/portfolio"
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? activeNav : "yellow",
+                                }
+                            }}
+                        >
+                            PORTFOLIO
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/contact"
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? activeNav : "yellow",
+                                }
+                            }}
+                        >
+                            CONTACT
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
-            <hr style={{width: "80%", margin: "0px auto"}} />
+            <hr style={{ width: "80%", margin: "0px auto" }} />
             <Outlet />
-        </div>
+        </div >
     )
 }
 

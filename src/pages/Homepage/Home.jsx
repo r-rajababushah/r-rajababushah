@@ -2,8 +2,7 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
-    const imgURL = (navigator.onLine) ? "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" : "src/components/assets/profile.jpg";
-    
+    const imgURL = "/static/profile.jpg";
 
     return (
         <div className='Home' id='Home'>
@@ -12,7 +11,7 @@ const Home = () => {
                 <h5>Frontend Web Developer</h5>
             </nav>
             <div className="profile-card">
-                <img src={imgURL}  id='profile-img' alt="PROFILE" />
+                <img src={imgURL} id='profile-img' alt="PROFILE" />
             </div>
             <div className="profile-details">
                 <h4>Hello & Welcome</h4>
@@ -22,7 +21,9 @@ const Home = () => {
                 <table>
                     <tbody>
                         <tr>
-                            <td className='index'>Birth Date</td>
+                            <td className='index'>
+                                Birth Date
+                            </td>
                             <td className='value'>13th May</td>
                         </tr>
                         <tr>
@@ -39,7 +40,7 @@ const Home = () => {
                         </tr>
                     </tbody>
                 </table>
-                <hr style={{marginBottom: "10px"}} />
+                <hr style={{ marginBottom: "10px" }} />
                 <q className='quote'>THE ENDING, TO ALL STORIES IS WRITTEN BY DESTINY</q>
             </div>
         </div>
