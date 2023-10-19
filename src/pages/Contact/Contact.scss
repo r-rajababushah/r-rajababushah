@@ -22,20 +22,19 @@
 
             .contact-data {
                 font-size: small;
-                color: #16f4aa;
             }
         }
     }
 
     .contact-form {
-        padding: 15px 5px 5px 5px;
+        padding: 15px 5px 5px 25px;
 
 
         label {
-            color: white;
             display: flex;
             align-items: center;
             margin-bottom: 5px;
+            font-weight: 700;
 
             .label-title {
                 width: 20%;
@@ -44,12 +43,11 @@
             input,
             textarea {
                 margin-bottom: 5px;
-                outline: 1px solid white;
+                outline: 1px solid rgb(0, 0, 0);
                 border-radius: 2px;
-                background-color: black;
                 border: none;
-                color: white;
                 margin-left: 15px;
+                align-items: center;
                 justify-self: flex-end;
                 height: 30px;
                 width: 250px;
@@ -65,15 +63,14 @@
             height: 30px;
             color: #0eb57d;
             outline: 1px solid #0eb57d;
-            background-color: black;
             border: none;
             border-radius: 5px;
             margin: 10px auto;
             text-align: center;
-            margin-left: 93px;
+            margin-left: 90px;
         }
 
-        button[type="submit"]:active{
+        button[type="submit"]:active {
             background-color: #0eb57d;
             color: black;
             border-color: #0eb57d;
@@ -84,6 +81,7 @@
 
 .copyright-info {
     margin: auto 10px;
+    color: white;
     background-color: #0eb57d;
     height: 50px;
     font-weight: 700;
@@ -92,4 +90,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 426px) and (max-width: 1440px) {
+
+    .contact {
+        .contact-info {
+            margin: 10px 32%;
+
+            .contact-data-row {
+                .icon-img {
+                    width: 5%;
+                }
+            }
+        }
+
+
+        .contact-form {
+            margin: 10px 30%;
+
+            form {
+                button[type="submit"] {
+                    margin-left: 117px;
+                }
+            }
+        }
+    }
+
+
+    .copyright-info {
+        width: 30%;
+        text-align: center;
+        margin: 1px auto;
+    }
 }

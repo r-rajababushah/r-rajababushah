@@ -3,12 +3,18 @@ import "./Contact.scss";
 
 function Contact() {
     let imgURL = "/static/favicon.png";
+
+    const onHandleChange = (e) => {
+        e.preventDefault();
+        alert("Thank You for Contacting Us");
+    }
+
     return (
         <div className='contact'>
             <div className="contact-info">
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src={imgURL} alt="png" />
+                        <i className="fa-solid fa-phone-volume"></i>
                     </div>
                     <div className="contact-data">
                         <h3>(+91) 7319806300</h3>
@@ -16,7 +22,7 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src={imgURL} alt="png" />
+                        <i className="fa-solid fa-location-arrow"></i>
                     </div>
                     <div className="contact-data">
                         <h3>New Delhi, India</h3>
@@ -24,7 +30,7 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src={imgURL} alt="png" />
+                        <i className="fa-solid fa-at"></i>
                     </div>
                     <div className="contact-data">
                         <h3>rajababushah.in@gmail.com</h3>
@@ -32,18 +38,17 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <img src={imgURL} alt="png" />
-                    </div>
+                        <i class="fa-solid fa-globe"></i>                    </div>
                     <div className="contact-data">
                         <h3>https://rajababushah.vercel.com</h3>
                     </div>
                 </div>
             </div>
 
-            <hr style={{width: "80%", margin: "1px auto"}} />
+            <hr style={{ width: "80%", margin: "1px auto" }} />
 
             <div className="contact-form">
-                <form>
+                <form onSubmit={onHandleChange}>
                     <label htmlFor="name">
                         <span className="label-title">Name</span><br />
                         <input type="text" name="name" id="name" required /> <br />
