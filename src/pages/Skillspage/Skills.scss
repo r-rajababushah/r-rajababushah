@@ -5,7 +5,7 @@
         margin: 15px;
         text-align: justify;
         font-size: 15px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     hr {
@@ -26,6 +26,10 @@
 
             p {
                 color: blue;
+
+                b {
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
             }
         }
 
@@ -44,4 +48,10 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1440px) {}
+@media screen and (min-width: 426px) and (max-width: 1440px) {
+    .skills {
+        p.skills-intro {
+            margin: 20px 135px;
+        }
+    }
+}
