@@ -10,21 +10,29 @@
             width: 200px;
             height: 250px;
 
-            .project-img {
-                display: flex;
-            }
-
-            img {
+            .project-img, img {
+                background-size: cover;
                 margin-top: 10px;
                 margin-left: auto;
                 margin-right: auto;
                 width: 190px;
                 height: 190px;
+                border: 1px solid black;
                 border-radius: 10px;
             }
 
             .project-description {
                 text-align: center;
+                color: red;
+                font-weight: 700;
+                margin-top: 10px;
+                font-size: 15px;
+
+                a {
+
+                    color: red;
+                    font-weight: 700;
+                }
             }
         }
     }
