@@ -2,8 +2,6 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
-    const imgURL = "/static/profile.jpg";
-
     return (
         <div className='Home'>
 
@@ -13,7 +11,7 @@ const Home = () => {
             </div>
 
             <div className="profile-card">
-                <img src={imgURL} id='profile-img' alt="PROFILE" />
+                <img src={"https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg"} id='profile-img' alt="PROFILE" />
             </div>
 
             <div className="profile-details">
