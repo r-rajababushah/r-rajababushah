@@ -14,7 +14,6 @@ const Home = () => {
                 imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
             }
         } else {
-            alert("hah");
             imgURL = "/static/profile.jpg";
         }
     }
