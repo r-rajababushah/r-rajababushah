@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 $skycolor: rgb(0, 236, 232);
 $frontColor: rgb(255, 255, 255);
 $backColor: rgb(0, 0, 0);
@@ -6,6 +8,7 @@ $blueColor: rgb(0, 0, 255);
 .Home {
     border-radius: 5px;
     margin: 5px;
+    font-family: 'Indie Flower', cursive;
 
     .profile-intro {
         margin: 5px 10px;
