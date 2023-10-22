@@ -2,7 +2,24 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
-    const imgURL = (navigator.onLine) ? "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg" : "/static/profile.jpg";
+
+    let imgURL;
+    let imgRand = () => {
+        let x = ((Math.round(Math.random() * 10)) % 2 == 0) ? "1" : "0";
+
+        if (navigator.onLine) {
+            if (x == 1) {
+                imgURL = "https://i.ibb.co/HtYWcjm/Kiran.jpg";
+            } else {
+                imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
+            }
+        } else {
+            alert("hah");
+            imgURL = "/static/profile.jpg";
+        }
+    }
+    imgRand();
+
 
     return (
         <div className='Home'>
