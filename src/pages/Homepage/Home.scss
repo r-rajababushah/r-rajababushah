@@ -21,12 +21,14 @@ $blueColor: rgb(0, 0, 255);
 
         h5 {
             color: $blueColor;
+            font-family: 'Indie Flower', cursive;
         }
     }
 
     .profile-card {
         display: flex;
         justify-content: center;
+        font-family: 'Indie Flower', cursive;
 
         #profile-img {
             height: 380px;
@@ -38,6 +40,7 @@ $blueColor: rgb(0, 0, 255);
 
     .profile-details {
         padding: 10px;
+        font-family: 'Indie Flower', cursive;
 
         h2 {
             color: $skycolor;
