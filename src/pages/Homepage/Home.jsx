@@ -2,36 +2,11 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
+    let imgURL = "/static/profile.jpg";
 
-    let imgURL;
-    let imgRand = () => {
-        let x = ((Math.round(Math.random() * 10)) % 2 == 0) ? "1" : "0";
-
-        if (navigator.onLine) {
-            if (x == 1) {
-                let x = ((Math.round(Math.random() * 10)) % 2 == 0) ? "1" : "0";
-                if (x == 1) {
-                    imgURL = "https://i.ibb.co/CsmPMzS/Screenshot-2023-10-23-122022-fotor-20231023122329.png";
-                } else {
-                    let x = ((Math.round(Math.random() * 10)) % 2 == 0) ? "1" : "0";
-                    if (x == 1) {
-                        imgURL = "https://i.ibb.co/HtYWcjm/Kiran.jpg";
-                    } else {
-                        let x = ((Math.round(Math.random() * 10)) % 2 == 0) ? "1" : "0";
-                        if (x == 1) {
-                            imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
-                        } else {
-                            imgURL = "https://i.ibb.co/nL6yNqf/Screenshot-2023-10-23-122022-fotor-20231023122356.png";
-                        }
-                    }
-                }
-            }
-        } else {
-            imgURL = "/static/profile.jpg";
-        }
+    if (navigator.onLine) {
+        imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
     }
-    imgRand();
-
 
     return (
         <div className='Home'>
