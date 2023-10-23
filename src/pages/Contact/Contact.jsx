@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Contact.scss";
 
 function Contact() {
     let imgURL = "/static/favicon.png";
 
-    const onHandleChange = (e) => {
+    let [name, setName] = useState("");
+    let [email, setEmail] = useState("");
+    let [message, setMessage] = useState("");
+
+    const handleSubmit = (e) => {
         e.preventDefault();
-        alert("Thank You for Contacting Us");
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        // fetch('/some-api', { method: form.method, body: formData });
+        const formJson = Object.fromEntries(formData.entries());
+        console.log(formJson);
+
+        setName("");
+        setEmail("");
+        setMessage("");
     }
 
     return (
@@ -38,7 +52,8 @@ function Contact() {
                 </div>
                 <div className="contact-data-row">
                     <div className="icon-img">
-                        <i class="fa-solid fa-globe"></i>                    </div>
+                        <i className="fa-solid fa-globe"></i>
+                    </div>
                     <div className="contact-data">
                         <h3>https://rajababushah.vercel.com</h3>
                     </div>
@@ -48,18 +63,18 @@ function Contact() {
             <hr style={{ width: "80%", margin: "1px auto" }} />
 
             <div className="contact-form">
-                <form onSubmit={onHandleChange}>
+                <form method="post" onSubmit={handleSubmit}>
                     <label htmlFor="name">
                         <span className="label-title">Name</span><br />
-                        <input type="text" name="name" id="name" required /> <br />
+                        <input type="text" name="name" id="name" value={name} onChange={(e) => setName(e.target.value)} required /> <br />
                     </label>
                     <label htmlFor="email">
                         <span className="label-title">Email </span> <br />
-                        <input type="email" id='email' required /> <br />
+                        <input type="email" id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} required /> <br />
                     </label>
                     <label htmlFor="message">
                         <span className="label-title">Message</span> <br />
-                        <textarea name="" id="message" height="30px" required></textarea> <br />
+                        <textarea name="message" id="message" height="30px" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea> <br />
                     </label>
                     <button type="submit">Submit</button>
                 </form>

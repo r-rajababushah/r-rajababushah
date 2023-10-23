@@ -17,11 +17,15 @@ const Home = () => {
                     if (x == 1) {
                         imgURL = "https://i.ibb.co/HtYWcjm/Kiran.jpg";
                     } else {
-                        imgURL = "https://i.ibb.co/nL6yNqf/Screenshot-2023-10-23-122022-fotor-20231023122356.png";
+                        let x = ((Math.round(Math.random() * 10)) % 2 == 0) ? "1" : "0";
+                        if (x == 1) {
+                            imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
+                        } else {
+                            imgURL = "https://i.ibb.co/nL6yNqf/Screenshot-2023-10-23-122022-fotor-20231023122356.png";
+                        }
                     }
                 }
             } else {
-                imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
             }
         } else {
             imgURL = "/static/profile.jpg";
