@@ -25,7 +25,6 @@ const Home = () => {
                         }
                     }
                 }
-            } else {
             }
         } else {
             imgURL = "/static/profile.jpg";
