@@ -2,7 +2,7 @@ import React from 'react';
 import "./Home.scss"
 
 const Home = () => {
-    let imgURL = "/static/profile.jpg";
+    let imgURL = "/static/profile.webp";
 
     if (navigator.onLine) {
         imgURL = "https://i.ibb.co/RCP6CL3/Me-Profile-Pic.jpg";
