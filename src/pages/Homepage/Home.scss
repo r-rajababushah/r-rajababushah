@@ -93,9 +93,11 @@ $blueColor: rgb(0, 0, 255);
 
         .profile-intro {
             display: none;
+            border: 1px solid pink;
         }
 
         .profile-card {
+
             #profile-img {
                 height: 300px;
                 width: 300px;
