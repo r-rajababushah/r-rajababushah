@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Contact.scss";
+import { Helmet } from 'react-helmet';
 
 function Contact() {
     let imgURL = "/static/favicon.png";
@@ -25,6 +26,9 @@ function Contact() {
 
     return (
         <div className='contact'>
+            <Helmet>
+                <title>Contact</title>
+            </Helmet>
             <div className="contact-info">
                 <div className="contact-data-row">
                     <div className="icon-img">
