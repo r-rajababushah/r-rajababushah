@@ -42,7 +42,7 @@ const Home = () => {
                                 </span>
                                 Address
                             </td>
-                            <td className='value'>Bhubaneswar, Odisha, India</td>
+                            <td className='value'>Bhubaneswar, India</td>
                         </tr>
                         <tr>
                             <td className='index'>
