@@ -27,7 +27,7 @@ function Contact() {
     return (
         <div className='contact'>
             <Helmet>
-                <title>Contact</title>
+                <title>Rajababu Shah - Contact</title>
             </Helmet>
             <div className="contact-info">
                 <div className="contact-data-row">
