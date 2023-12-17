@@ -1,10 +1,14 @@
 import React from 'react';
 import "./Skills.scss";
 import ProgressBar from '../../components/ProgressBar/Progress_bar';
+import { Helmet } from 'react-helmet';
 
 function Skills() {
     return (
         <div className='skills'>
+            <Helmet>
+                <title>Rajababu Shah - Skills </title>
+            </Helmet>
             <p className='skills-intro' >Hello! I'm <b>Rajababu Shah</b> Junior Web Developer specializing in front end developmnet with <span style={{ color: "red" }}>React.js</span>. Experienced with all libraries of frontend developemnt cycle for <span style={{ color: "red" }}>dynamic web projects.</span> Well-versed in numerous programming languages including HTML5, Node.js , javascript and python. <br /><br />Hands on experience on Web Development. Quick learner and ability to work with minimum guidance.
             </p>
             <hr />

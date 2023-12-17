@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import "./Home.scss"
 
 const Home = () => {
@@ -6,7 +7,9 @@ const Home = () => {
 
     return (
         <div className='Home'>
-
+            <Helmet>
+                <title>Rajababu Shah - Home</title>
+            </Helmet>
             <div className='profile-intro'>
                 <h2>Rajababu Shah</h2>
                 <h5>Frontend Web Developer</h5>

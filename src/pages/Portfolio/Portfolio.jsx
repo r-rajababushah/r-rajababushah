@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Portfolio.scss";
+import { Helmet } from 'react-helmet';
 
 
 function Portfolio() {
@@ -8,6 +9,9 @@ function Portfolio() {
     return (
 
         <div className='portfolio'>
+            <Helmet>
+                <title>Rajababu Shah - Portfolio</title>
+            </Helmet>
             <div className="projects-cards">
                 <div className="project-card">
                     <div className="project-img" style={{ backgroundImage: "url('/static/marketing_page.png')" }}>

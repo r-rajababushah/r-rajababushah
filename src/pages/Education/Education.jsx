@@ -1,11 +1,15 @@
 import React from 'react';
 import "./Education.scss";
+import { Helmet } from 'react-helmet';
 
 function Education() {
     let imgURL = "static/timeline-logo.png";
     
     return (
         <div className='education'>
+            <Helmet>
+                <title>Rajababu Shah - Education</title>
+            </Helmet>
             <div className="timeline">
                 <div className="container right-container">
                     <img src={imgURL} alt="" />
