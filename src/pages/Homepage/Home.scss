@@ -4,6 +4,7 @@ $skycolor: rgb(0, 236, 232);
 $frontColor: rgb(255, 255, 255);
 $backColor: rgb(0, 0, 0);
 $blueColor: rgb(0, 0, 255);
+$redColor: rgb(255, 0, 0);
 
 .Home {
     border-radius: 5px;
@@ -67,7 +68,7 @@ $blueColor: rgb(0, 0, 255);
                     }
 
                     td.value {
-                        color: $blueColor;
+                        color: $redColor;
                     }
                 }
             }
