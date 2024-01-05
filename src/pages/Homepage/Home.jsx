@@ -23,7 +23,7 @@ const Home = () => {
                 <h4>Hello & Welcome</h4>
                 <h2>I'm Rajababu Shah</h2>
                 <h5>Developing Web Application</h5>
-                <hr />
+                <hr style={{ borderColor: "black" }} />
                 <table>
                     <tbody>
                         <tr>
@@ -64,7 +64,7 @@ const Home = () => {
                         </tr>
                     </tbody>
                 </table>
-                <hr style={{ marginBottom: "10px" }} />
+                <hr style={{ borderColor: "black", marginBottom: "10px" }} />
                 <q className='quote'>THE ENDING, TO ALL STORIES IS WRITTEN BY DESTINY</q>
             </div>
         </div>

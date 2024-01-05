@@ -11,7 +11,7 @@ $backColor: rgb(0, 0, 0);
 }
 
 // for desktop and tablets
-@media screen and (min-width: 426px) and (max-width: 1440px) {
+@media screen and (min-width: 426px) {
     .nav {
         padding: 0px 50px;
         @include flexDisplay();
