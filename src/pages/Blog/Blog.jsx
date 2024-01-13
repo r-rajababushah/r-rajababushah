@@ -1,15 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 function Blog() {
     const [text, setText] = useState('');
-
-    useEffect(() => {
-        fetch('src/pages/Blog/words.txt')
-            .then(response => response.text())
-            .then(data => setText(data));
-    }, []);
 
     return (
         <>
@@ -20,7 +14,7 @@ function Blog() {
                 <div className='My Blog' style={{ padding: "10px" }}>
                     <div className="myPost">
                         <h2 style={{ color: "red" }}>The life i got</h2>
-                        <p style={{ fontWeight: "bold" }}>{text}</p>
+                        <p style={{ fontWeight: "bold" }}>DATA NOT WRITTEN BY USER</p>
                     </div>
                 </div>
             </HelmetProvider>
