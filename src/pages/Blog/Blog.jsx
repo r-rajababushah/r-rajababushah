@@ -13,7 +13,7 @@ function Blog() {
                 </Helmet>
                 <div className='My Blog' style={{ padding: "10px" }}>
                     <div className="myPost">
-                        <h2 style={{ color: "red" }}>The life i got</h2>
+                        <h2 style={{ color: "red" }}>The life i got........................</h2>
                         <p style={{ fontWeight: "bold" }}>DATA NOT WRITTEN BY USER</p>
                     </div>
                 </div>
