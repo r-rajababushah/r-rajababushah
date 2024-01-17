@@ -71,18 +71,6 @@ function Header() {
                             CONTACT
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink
-                            to="/blog"
-                            style={({ isActive }) => {
-                                return {
-                                    color: isActive ? activeNav : "yellow",
-                                }
-                            }}
-                        >
-                            BLOG
-                        </NavLink>
-                    </li>
                 </ul>
             </nav>
             <Outlet />

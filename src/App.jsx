@@ -6,7 +6,6 @@ import Skills from './pages/Skillspage/Skills';
 import Education from './pages/Education/Education';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
-import Blog from './pages/Blog/Blog';
 import "./App.css";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
                     <Route path='/education' element={<Education />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/contact' element={<Contact />} />
-                    <Route path='/blog' element={<Blog />} />
                 </Route>
             </Routes>
         </BrowserRouter>
