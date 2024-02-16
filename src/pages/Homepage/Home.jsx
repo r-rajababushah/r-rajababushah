@@ -3,7 +3,7 @@ import "./Home.scss"
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Home = () => {
-    let imgURL = "/static/profile.webp";
+    let imgURL = "/static/itsme.jpg";
 
     return (
         <div className='Home'>

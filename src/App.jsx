@@ -7,6 +7,7 @@ import Education from './pages/Education/Education';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import "./App.css";
+import Youtube from './pages/Youtube/Youtube';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path='/education' element={<Education />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/youtube' element={<Youtube />} />
                 </Route>
             </Routes>
         </BrowserRouter>

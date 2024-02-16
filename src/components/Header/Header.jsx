@@ -71,6 +71,18 @@ function Header() {
                             CONTACT
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink
+                            to="/youtube"
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? activeNav : "yellow",
+                                }
+                            }}
+                        >
+                            YOUTUBE
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
             <Outlet />
