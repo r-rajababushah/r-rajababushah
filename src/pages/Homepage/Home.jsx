@@ -23,7 +23,7 @@ const Home = () => {
                 <div className="profile-details">
                     <h4>Hello & Welcome</h4>
                     <h2>I'm Rajababu Shah</h2>
-                    <h5>Developing Web Application</h5>
+                    <h5>Developing Websites</h5>
                     <hr style={{ borderColor: "black" }} />
                     <table>
                         <tbody>
