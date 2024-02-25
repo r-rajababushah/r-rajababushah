@@ -28,6 +28,8 @@ $redColor: rgb(255, 0, 0);
         justify-content: center;
 
         #profile-img {
+            height: 500px;
+            width: 400px;
             border: 1px solid $blueColor;
             border-radius: 10px;
         }
