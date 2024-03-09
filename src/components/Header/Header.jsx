@@ -73,14 +73,14 @@ function Header() {
                     </li>
                     <li>
                         <NavLink
-                            to="/youtube"
+                            to="/fromyoutube"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? activeNav : "yellow",
                                 }
                             }}
                         >
-                            YOUTUBE
+                            DOWNLOADS
                         </NavLink>
                     </li>
                 </ul>
