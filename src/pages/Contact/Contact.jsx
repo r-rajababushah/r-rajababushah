@@ -26,7 +26,6 @@ function Contact() {
 
     return (
         <div className='contact'>
-            <HelmetProvider>
                 <Helmet>
                     <title>Rajababu Shah - Contact</title>
                 </Helmet>
@@ -85,7 +84,6 @@ function Contact() {
                     </form>
                 </div>
                 <p className='copyright-info'>&copy; Copyright reserved; lifetime ownership</p>
-            </HelmetProvider>
         </div>
     )
 }

@@ -1,9 +1,13 @@
 import React from 'react';
 import "./Downloads.scss";
+import { Helmet } from 'react-helmet';
 
 function Downloads() {
     return (
         <div className='downloads'>
+            <Helmet>
+                <title>Rajababu Shah - Downloads </title>
+            </Helmet>
             <table className="download-links">
                 <thead>
                     <tr>
@@ -18,7 +22,6 @@ function Downloads() {
                     </tr>
                 </tbody>
             </table>
-            
         </div>
     )
 }

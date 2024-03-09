@@ -7,7 +7,6 @@ function Education() {
 
     return (
         <div className='education'>
-            <HelmetProvider>
                 <Helmet>
                     <title>Rajababu Shah - Education</title>
                 </Helmet>
@@ -38,7 +37,6 @@ function Education() {
                         </div>
                     </div>
                 </div>
-            </HelmetProvider>
         </div>
     )
 }

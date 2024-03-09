@@ -6,7 +6,6 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 function Skills() {
     return (
         <div className='skills'>
-            <HelmetProvider>
                 <Helmet>
                     <title>Rajababu Shah - Skills </title>
                 </Helmet>
@@ -79,7 +78,6 @@ function Skills() {
                         <ProgressBar value={`40%`} bgColor={'brown'} />
                     </div>
                 </div>
-            </HelmetProvider>
         </div>
     )
 }

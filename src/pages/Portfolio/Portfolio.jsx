@@ -8,7 +8,6 @@ function Portfolio() {
     let imgURL = "/static/todos.png";
     return (
         <div className='portfolio'>
-            <HelmetProvider>
                 <Helmet>
                     <title>Rajababu Shah - Portfolio</title>
                 </Helmet>
@@ -45,7 +44,6 @@ function Portfolio() {
                 <div className="project-more-button">
                     <button type="button"><Link to={"https://github.com/r-rajababushah"}>View More on GitHub</Link></button>
                 </div>
-            </HelmetProvider>
         </div>
     )
 }

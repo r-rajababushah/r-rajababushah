@@ -7,7 +7,6 @@ const Home = () => {
 
     return (
         <div className='Home'>
-            <HelmetProvider>
                 <Helmet>
                     <title>Rajababu Shah - Home</title>
                 </Helmet>
@@ -68,7 +67,6 @@ const Home = () => {
                     <hr style={{ borderColor: "black", marginBottom: "10px" }} />
                     <q className='quote'>THE ENDING, TO ALL STORIES IS WRITTEN BY DESTINY</q>
                 </div>
-            </HelmetProvider>
         </div>
     )
 }
