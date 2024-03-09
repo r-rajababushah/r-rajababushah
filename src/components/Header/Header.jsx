@@ -73,7 +73,7 @@ function Header() {
                     </li>
                     <li>
                         <NavLink
-                            to="/fromyoutube"
+                            to="/downloads"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? activeNav : "yellow",
