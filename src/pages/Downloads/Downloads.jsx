@@ -17,6 +17,10 @@ function Downloads() {
                 </thead>
                 <tbody>
                     <tr>
+                        <td>Video Editor Download Link</td>
+                        <td><a href="https://www.videosoftdev.com/services/download.aspx?ProductID=1" download>VSDC Video Editor</a></td>
+                    </tr>
+                    <tr>
                         <td>Video Editor Activation Code:</td>
                         <td><a href="/Files/VSDC.txt" className="vsdc-codes-download-link" download>Dwonload VSDC free activation Codes</a></td>
                     </tr>
