@@ -7,9 +7,9 @@ function Header() {
     let activeNav = "rgb(0, 236, 232)";
 
     return (
-        <div className="header">
+        <div className="nav-header">
             <nav className="nav" name="#home">
-                <label htmlFor="title" className='title'><a href=''>Portfolio</a></label>
+                <label htmlFor="title" className='title'><a href='https://rajababushah.vercel.app'>Portfolio</a></label>
                 <ul>
                     <li>
                         <NavLink

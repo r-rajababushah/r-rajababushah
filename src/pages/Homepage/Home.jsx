@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.scss"
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet} from 'react-helmet-async';
 
 const Home = () => {
     let imgURL = "/static/itsme.jpg";
@@ -10,11 +10,6 @@ const Home = () => {
                 <Helmet>
                     <title>Rajababu Shah - Home</title>
                 </Helmet>
-                <div className='profile-intro'>
-                    <h2>Rajababu Shah</h2>
-                    <h5>Frontend Web Developer</h5>
-                </div>
-
                 <div className="profile-card">
                     <img src={imgURL} id='profile-img' alt="PROFILE" />
                 </div>
@@ -22,7 +17,7 @@ const Home = () => {
                 <div className="profile-details">
                     <h4>Hello & Welcome</h4>
                     <h2>I'm Rajababu Shah</h2>
-                    <h5>Developing Websites</h5>
+                    <h5>Youtuber | Web Developer | Traveller</h5>
                     <hr style={{ borderColor: "black" }} />
                     <table>
                         <tbody>

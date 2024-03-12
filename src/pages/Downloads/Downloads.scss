@@ -1,6 +1,9 @@
 .downloads {
     padding: 10px;
     background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 
     table.download-links, tr, th, td {
         border: 1px solid black;
@@ -9,6 +12,12 @@
     }
 
     table.download-links {
+        caption {
+            font-weight: bold;
+            color: black;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
         thead {
             tr {
                 th {
@@ -21,8 +30,10 @@
                 td {
                     width: 400px;
                     text-align: center;
+                    font-weight: bold;
+                    color: blue;
 
-                    a.vsdc-codes-download-link {
+                    a.download-link {
                         color: red;
                         font-weight: bold;
                         font-family: system-ui, Roboto, 'Open Sans', sans-serif;

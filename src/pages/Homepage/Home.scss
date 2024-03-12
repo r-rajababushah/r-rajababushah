@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
 $skycolor: rgb(0, 236, 232);
 $frontColor: rgb(255, 255, 255);
 $backColor: rgb(0, 0, 0);
@@ -10,27 +8,14 @@ $redColor: rgb(255, 0, 0);
     border-radius: 5px;
     margin: 5px;
 
-    .profile-intro {
-        margin: 5px 10px;
-        text-align: center;
-
-        h2 {
-            font-size: 35px;
-        }
-
-        h5 {
-            color: $blueColor;
-        }
-    }
-
     .profile-card {
         display: flex;
         justify-content: center;
 
         #profile-img {
-            height: 500px;
-            width: 400px;
-            border: 1px solid $blueColor;
+            height: 530px;
+            width: 350px;
+            border: 5px solid $blueColor;
             border-radius: 10px;
         }
     }
@@ -98,9 +83,9 @@ $redColor: rgb(255, 0, 0);
 
         .profile-card {
             #profile-img {
-                border: 1px solid black;
-                border: 1px solid black;
-                border-radius: 0;
+                border: 5px solid blue;
+                border-radius: 15px;
+
             }
         }
 
