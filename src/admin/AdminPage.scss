@@ -53,3 +53,11 @@
         }
     }
 }
+
+@media screen and (min-width: 425px) {
+    .admin-panel {
+        .login-container {
+            flex-direction: column;
+        }
+    }
+}
