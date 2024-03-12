@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import "./App.css";
 import Downloads from './pages/Downloads/Downloads';
+import AdminPage from './admin/AdminPage';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/downloads' element={<Downloads />} />
+                    <Route path='/admin' element={<AdminPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>
