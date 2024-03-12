@@ -8,6 +8,7 @@
     .login-container {
         background-color: #efefef;
         display: flex;
+        flex-direction: column;
         align-content: center;
         justify-content: center;
         padding: 10px;
@@ -57,7 +58,7 @@
 @media screen and (min-width: 425px) {
     .admin-panel {
         .login-container {
-            flex-direction: column;
+            flex-direction: row;
         }
     }
 }
