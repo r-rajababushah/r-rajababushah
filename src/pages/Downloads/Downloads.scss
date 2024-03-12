@@ -43,3 +43,9 @@
         }
     }
 }
+
+@media screen and (min-width: 425px) {
+    .downloads {
+        flex-direction: row;
+    }
+}

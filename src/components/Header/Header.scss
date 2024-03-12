@@ -21,9 +21,38 @@ $backColor: rgb(0, 0, 0);
 
         ul {
             display: flex;
+
             li {
                 font-size: 13px;
                 padding: 5px;
+            }
+        }
+    }
+}
+
+// For Pc and Tablet
+@media screen and (min-width: 425px) {
+    .nav-header {
+        nav.nav {
+            flex-direction: row;
+            justify-content: space-between;
+
+            label {
+                margin-left: 100px;
+                a {
+                    font-size: 40px;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+
+            ul {
+                align-items: center;
+
+                li {
+                    font-size: 25px;
+                    color: red;
+                    margin-right: 10px;
+                }
             }
         }
     }
