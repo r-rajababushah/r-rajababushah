@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact';
 import "./App.css";
 import Downloads from './pages/Downloads/Downloads';
 import AdminPage from './admin/AdminPage';
+import AdminControlPanel from './admin/AdminControlPanel';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/downloads' element={<Downloads />} />
                     <Route path='/admin' element={<AdminPage />} />
+                    <Route path='/admincontrolpanel' element={<AdminControlPanel />} />
                 </Route>
             </Routes>
         </BrowserRouter>
