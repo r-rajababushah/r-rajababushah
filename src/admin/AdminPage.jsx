@@ -13,7 +13,7 @@ function AdminPage() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (email === emailVal && password === passwordVal) {
-            <NavLink to="/admincontrolpanel">AdminBoom</NavLink>
+            
         } else {
             setEmail((e) => "Haha, Your are not admin");
         }
