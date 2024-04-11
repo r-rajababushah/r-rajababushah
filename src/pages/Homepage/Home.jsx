@@ -15,9 +15,7 @@ const Home = () => {
                 </div>
 
                 <div className="profile-details">
-                    <h4>Hello & Welcome</h4>
-                    <h2>I'm Rajababu Shah</h2>
-                    <h5>Youtuber | Web Developer | Traveller</h5>
+                    <h3><big className='nameTitle'>Rajababu Shah</big> : <sm className="work">Youtuber | Web Developer | Traveller </sm></h3>
                     <hr style={{ borderColor: "black" }} />
                     <table>
                         <tbody>

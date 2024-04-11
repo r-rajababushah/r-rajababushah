@@ -6,10 +6,8 @@ import Skills from './pages/Skillspage/Skills';
 import Education from './pages/Education/Education';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
-import "./App.css";
 import Downloads from './pages/Downloads/Downloads';
-import AdminPage from './admin/AdminPage';
-import AdminControlPanel from './admin/AdminControlPanel';
+import "./App.css";
 
 function App() {
     return (
@@ -22,8 +20,6 @@ function App() {
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/downloads' element={<Downloads />} />
-                    <Route path='/admin' element={<AdminPage />} />
-                    <Route path='/admincontrolpanel' element={<AdminControlPanel />} />
                 </Route>
             </Routes>
         </BrowserRouter>

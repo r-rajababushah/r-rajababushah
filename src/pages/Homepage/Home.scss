@@ -23,6 +23,14 @@ $redColor: rgb(255, 0, 0);
     .profile-details {
         padding: 10px;
 
+        .nameTitle {
+            color: green;
+        }
+
+        h3 > .work {
+            color: blue;
+        }
+
         h2 {
             color: $skycolor;
         }
