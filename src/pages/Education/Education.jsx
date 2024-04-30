@@ -14,8 +14,8 @@ function Education() {
                     <div className="container right-container">
                         <img src={imgURL} alt="" />
                         <div className="text-box">
-                            <h4>Bachelors of Computer Application</h4>
-                            <p>Indira Ghandhi National Open University</p>
+                            <h4>B.Tech CSE</h4>
+                            <p>STAR, Bhubaneswar</p>
                             <span className='right-container-arrow'></span>
                         </div>
                     </div>
