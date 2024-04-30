@@ -43,7 +43,7 @@ function Contact() {
                             <i className="fa-solid fa-location-arrow"></i>
                         </div>
                         <div className="contact-data">
-                            <h3>New Delhi, India</h3>
+                            <h3>Bhubaneswar, India</h3>
                         </div>
                     </div>
                     <div className="contact-data-row">
@@ -59,7 +59,7 @@ function Contact() {
                             <i className="fa-solid fa-globe"></i>
                         </div>
                         <div className="contact-data">
-                            <h3>https://rajababushah.vercel.com</h3>
+                            <h3>https://rajababushah.vercel.app</h3>
                         </div>
                     </div>
                 </div>
