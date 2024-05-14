@@ -11,7 +11,7 @@ const Home = () => {
                     <title>Rajababu Shah - Home</title>
                 </Helmet>
                 <div className="profile-card">
-                    <img src={imgURL} id='profile-img' alt="PROFILE" />
+                    <img src={imgURL} id='profile-img' alt="Rajababu Shah" />
                 </div>
 
                 <div className="profile-details">
