@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom';
 import "./Header.scss";
 
 function Header() {
 
     let activeNav = "rgb(0, 236, 232)";
+    let siteUrl = "https://rajababushah.vercel.app";
+    
 
     return (
         <div className="nav-header">
             <nav className="nav" name="#home">
-                <label htmlFor="title" className='title'><a href='https://rajababushah.vercel.app'>Portfolio</a></label>
+                <label htmlFor="title" className='title'><a href={siteUrl}>Portfolio</a></label>
                 <ul>
                     <li>
                         <NavLink

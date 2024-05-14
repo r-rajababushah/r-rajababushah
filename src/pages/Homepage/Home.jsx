@@ -3,7 +3,7 @@ import "./Home.scss"
 import { Helmet} from 'react-helmet-async';
 
 const Home = () => {
-    let imgURL = "/static/itsme.jpg";
+    let imgURL = "/static/mypic.jpeg";
 
     return (
         <div className='Home'>
