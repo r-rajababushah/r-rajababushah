@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Education.scss";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 function Education() {
     let imgURL = "static/timeline-logo.png";
@@ -15,7 +15,7 @@ function Education() {
                         <img src={imgURL} alt="" />
                         <div className="text-box">
                             <h4>B.Tech CSE</h4>
-                            <p>STAR, Bhubaneswar</p>
+                            <p>===to==be==updated==soon===</p>
                             <span className='right-container-arrow'></span>
                         </div>
                     </div>
