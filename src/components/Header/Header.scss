@@ -25,6 +25,27 @@ $backColor: rgb(0, 0, 0);
             li {
                 font-size: 13px;
                 padding: 5px;
+
+                a {
+                    .switch-lang {
+                        position: relative;
+                        display: inline-block;
+                        width: 60px;
+                        height: 34px;
+
+                        input {
+                            opacity: 0;
+                            width: 0;
+                            height: 0;
+                        }
+
+                        .slider {
+                            position: absolute;
+                            background-color: red;
+                        }
+                    }
+
+                }
             }
         }
     }
@@ -39,6 +60,7 @@ $backColor: rgb(0, 0, 0);
 
             label {
                 margin-left: 100px;
+
                 a {
                     font-size: 40px;
                     font-family: 'Courier New', Courier, monospace;

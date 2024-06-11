@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom';
 import "./Header.scss";
 
@@ -11,6 +11,7 @@ function Header() {
     return (
         <div className="nav-header">
             <nav className="nav" name="#home">
+
                 <label htmlFor="title" className='title'><a href={siteUrl}>Portfolio</a></label>
                 <ul>
                     <li>
