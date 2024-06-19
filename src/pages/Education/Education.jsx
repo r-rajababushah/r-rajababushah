@@ -15,7 +15,7 @@ function Education() {
                         <img src={imgURL} alt="" />
                         <div className="text-box">
                             <h4>B.Tech CSE</h4>
-                            <p>===to==be==updated==soon===</p>
+                            <p>Maharishi University of Information and Technology</p>
                             <span className='right-container-arrow'></span>
                         </div>
                     </div>
