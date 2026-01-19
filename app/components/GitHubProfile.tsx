@@ -60,7 +60,7 @@ export default function GitHubProfile() {
         // ========================================================================
         // 🔧 CUSTOMIZE: Replace 'BhaveshNank' with YOUR GitHub username
         // ========================================================================
-        const GITHUB_USERNAME = 'BhaveshNank';  // ⚠️ CHANGE THIS!
+        const GITHUB_USERNAME = 'r-rajababushah';  // ⚠️ CHANGE THIS!
         
         // Fetch user data
         const userResponse = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}`);

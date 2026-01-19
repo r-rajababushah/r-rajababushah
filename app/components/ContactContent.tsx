@@ -29,35 +29,35 @@ export default function ContactContent({ onOpenFile }: ContactContentProps) {
     {
       icon: Mail,
       label: 'Email',
-      value: 'bhaveshnankani@outlook.com',              // 🔧 Your email address
-      href: 'mailto:bhaveshnankani@outlook.com',        // 🔧 Keep mailto: prefix
+      value: 'rajababushah.in@gmail.com',              // 🔧 Your email address
+      href: 'mailto:rajababushah.in@gmaii.com',        // 🔧 Keep mailto: prefix
       color: 'text-vscode-syntax-red'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+44 7398 235749',                         // 🔧 Your phone number
-      href: 'tel:+447398235749',                        // 🔧 Keep tel: prefix (no spaces)
+      value: '+917319806300',                         // 🔧 Your phone number
+      href: 'tel:+917319806300',                        // 🔧 Keep tel: prefix (no spaces)
       color: 'text-vscode-syntax-green'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/bhavesh-nankani',         // 🔧 Your LinkedIn username
-      href: 'https://linkedin.com/in/bhavesh-nankani',  // 🔧 Full LinkedIn URL
+      value: 'linkedin.com/in/rajababu_shah',         // 🔧 Your LinkedIn username
+      href: 'https://linkedin.com/in/rajababu_shah',  // 🔧 Full LinkedIn URL
       color: 'text-[#0077b5]'
     },
     {
       icon: Github,
       label: 'GitHub',
       value: 'github.com/BhaveshNank',                  // 🔧 Your GitHub username
-      href: 'https://github.com/BhaveshNank',           // 🔧 Full GitHub URL
+      href: 'https://github.com/r-rajababushah',           // 🔧 Full GitHub URL
       color: 'text-vscode-syntax-magenta'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'London, United Kingdom',                  // 🔧 Your location
+      value: 'Raxaul, India',                  // 🔧 Your location
       href: null,                                       // Keep null (not clickable)
       color: 'text-vscode-syntax-yellow'
     }

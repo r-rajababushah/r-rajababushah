@@ -7,7 +7,7 @@
 // 1. Update personal information in the Hero Section (name, title, bio)
 // 2. Modify techStack object with your technologies
 // 3. Update stats array with your achievements
-// 4. Replace profile picture in public folder (bhavesh.jpeg)
+// 4. Replace profile picture in public folder (rajababushah.jpeg)
 // 5. Update education and work experience sections
 // ============================================================================
 
@@ -70,10 +70,10 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
           >
             {/* Avatar Placeholder */}
             <div className="relative">
-              {/* 🔧 CUSTOMIZE: Replace /bhavesh.jpeg with your photo in public folder */}
+              {/* 🔧 CUSTOMIZE: Replace /rajababushah.jpeg with your photo in public folder */}
               <img 
-                src="/bhavesh.jpeg"                    // 🔧 Your profile picture path
-                alt="Bhavesh Nankani"                  // 🔧 Your name for alt text
+                src="/rajababushah.jpg"                    // 🔧 Your profile picture path
+                alt="Rajababu Shah"                  // 🔧 Your name for alt text
                 className="w-32 h-32 rounded-full object-cover shadow-xl border-4 border-vscode-border"
               />
             </div>
@@ -81,13 +81,13 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
             {/* Header Info */}
             <div className="flex-1">
               {/* 🔧 CUSTOMIZE: Your name, title, and introduction */}
-              <h1 className="text-5xl font-bold text-white mb-4">Bhavesh Nankani</h1>  {/* 🔧 Your name */}
+              <h1 className="text-5xl font-bold text-white mb-4">Rajababu Shah</h1>  {/* 🔧 Your name */}
               <p className="text-xl text-vscode-syntax-blue font-semibold mb-4">
-                Full-Stack Software Engineer  {/* 🔧 Your professional title */}
+                Graphic Desginer + Software Engineer  {/* 🔧 Your professional title */}
               </p>
               <p className="text-lg text-vscode-text leading-relaxed mb-6">
                 {/* 🔧 Your professional introduction (2-3 sentences) */}
-                First Class Honours graduate passionate about building scalable web applications 
+                Building scalable web applications 
                 and solving complex technical challenges with elegant solutions.
               </p>
               
@@ -95,11 +95,11 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
               <div className="flex flex-wrap gap-4 text-sm text-vscode-textMuted mb-6">
                 <div className="flex items-center gap-2">
                   <MapPin size={16} className="text-vscode-syntax-blue" />
-                  <span>London, UK</span>  {/* 🔧 Your location */}
+                  <span>Raxaul, East Champaran, Bihar</span>  {/* 🔧 Your location */}
                 </div>
                 <div className="flex items-center gap-2">
                   <GraduationCap size={16} className="text-vscode-syntax-green" />
-                  <span>University of Greenwich</span>  {/* 🔧 Your university */}
+                  <span>Maharishi University of Information Technology</span>  {/* 🔧 Your university */}
                 </div>
                 <div className="flex items-center gap-2">
                   <Calendar size={16} className="text-vscode-syntax-cyan" />
@@ -190,7 +190,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                 <div className="flex justify-between items-start mb-3">
                   <div>
                     <h3 className="text-xl font-bold text-white">Student Centre Advisor</h3>
-                    <p className="text-vscode-syntax-green font-medium">University of Greenwich</p>
+                    <p className="text-vscode-syntax-green font-medium">Maharishi University of Information Technology</p>
                   </div>
                   <span className="text-sm text-vscode-textMuted">Aug 2025 - Sep 2025</span>
                 </div>
@@ -214,7 +214,7 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
                 <div className="flex justify-between items-start mb-3">
                   <div>
                     <h3 className="text-xl font-bold text-white">UK Student Recruitment Ambassador</h3>
-                    <p className="text-vscode-syntax-cyan font-medium">University of Greenwich</p>
+                    <p className="text-vscode-syntax-cyan font-medium">Maharishi University of Information Technology</p>
                   </div>
                   <span className="text-sm text-vscode-textMuted">Jul 2024 - Sep 2025</span>
                 </div>
@@ -248,12 +248,12 @@ export default function AboutContent({ onOpenFile }: AboutContentProps) {
           <div className="bg-gradient-to-br from-vscode-syntax-blue/10 to-transparent border border-vscode-border rounded-lg p-6 hover:border-vscode-border transition-all">
             <div className="flex justify-between items-start mb-3">
               <div>
-                <h3 className="text-2xl font-bold text-white">Bachelor of Engineering in Software Engineering</h3>
-                <p className="text-lg text-vscode-syntax-blue font-semibold mt-2">First Class Honours</p>
+                <h3 className="text-2xl font-bold text-white">B.Tech CSE 4th SEM</h3>
+                <p className="text-lg text-vscode-syntax-blue font-semibold mt-2">GPA: 8.5</p>
               </div>
-              <span className="text-sm text-vscode-textMuted">Sep 2022 - May 2025</span>
+              <span className="text-sm text-vscode-textMuted">Aug 2024 - Aug 2028</span>
             </div>
-            <p className="text-vscode-text">University of Greenwich, London, UK</p>
+            <p className="text-vscode-text">Maharishi University of Information Technology, Lucknow, Uttar Pradesh, India</p>
           </div>
         </motion.section>
 

@@ -33,12 +33,12 @@ export default function HomeContent() {
   // 🔧 CUSTOMIZE THIS OBJECT WITH YOUR INFORMATION
   // ============================================================================
   const engineerProfile = {
-    name: "Bhavesh Nankani",                    // 🔧 Your full name
-    role: "Full-Stack Software Engineer",       // 🔧 Your professional title
+    name: "Rajababu Shah",                    // 🔧 Your full name
+    role: "Graphics Designer + Software Engineer",       // 🔧 Your professional title
     education: {
-      degree: "BEng Software Engineering",      // 🔧 Your degree
+      degree: "B.Tech CSE",      // 🔧 Your degree
       honours: "First Class",                   // 🔧 Your honors/GPA
-      university: "University of Greenwich"     // 🔧 Your university
+      university: "Maharishi University of Information Technology"     // 🔧 Your university
     },
     techStack: [                                // 🔧 Your main technologies (6-8 items)
       "Next.js 15 & React",
@@ -48,14 +48,14 @@ export default function HomeContent() {
       "PostgreSQL & MongoDB",
       "AWS & Cloud Architecture"
     ],
-    location: "London, UK",                     // 🔧 Your location
-    status: "Ready to Deploy 🚀"               // 🔧 Your current status/tagline
+    location: "Raxaul, East Champaran, Bihar",                     // 🔧 Your location
+    status: "Ready for Yalgaar! 🚀"               // 🔧 Your current status/tagline
   };
   // ============================================================================
 
-  const code = `const bhavesh = ${JSON.stringify(engineerProfile, null, 2)};
+  const code = `const rajababuShah = ${JSON.stringify(engineerProfile, null, 2)};
 
-export default bhavesh;`;
+export default rajababuShah;`;
 
   const displayText = useTypewriter(code, 20);
   const [showCursor, setShowCursor] = useState(true);
@@ -91,7 +91,7 @@ export default bhavesh;`;
         .replace(/\bconst\b/g, '<span class="text-[#c586c0]">const</span>')
         .replace(/\bexport\b/g, '<span class="text-[#c586c0]">export</span>')
         .replace(/\bdefault\b/g, '<span class="text-[#c586c0]">default</span>')
-        .replace(/\bbhavesh\b/g, '<span class="text-[#4fc1ff]">bhavesh</span>');
+        .replace(/\brajababushah\b/g, '<span class="text-[#4fc1ff]">rajababushah</span>');
     }
     
     // Brackets and punctuation
