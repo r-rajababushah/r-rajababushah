@@ -237,7 +237,7 @@ export default function Home() {
       'resume.pdf': 'Resume | Rajababu Shah',
       'github': 'GitHub | Rajababu Shah'
     };
-    document.title = tabTitles[activeTab] || 'Bhavesh Nankani | Portfolio';
+    document.title = tabTitles[activeTab] || 'Rajababu Shah | Portfolio';
   }, [activeTab]);
 
   const allFiles = [

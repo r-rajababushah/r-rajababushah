@@ -14,7 +14,7 @@
 // - Ensure your GitHub profile is public
 //
 // TO CUSTOMIZE:
-// 1. Replace 'BhaveshNank' with YOUR GitHub username (line ~56 and ~61)
+// 1. Replace 'Rajababu Shah' with YOUR GitHub username (line ~56 and ~61)
 // 2. Test that your profile loads correctly
 // 3. Consider adding a token for higher rate limits (optional)
 // ============================================================================
@@ -58,7 +58,7 @@ export default function GitHubProfile() {
     const fetchGitHubData = async () => {
       try {
         // ========================================================================
-        // 🔧 CUSTOMIZE: Replace 'BhaveshNank' with YOUR GitHub username
+        // 🔧 CUSTOMIZE: Replace 'Rajababu Shah' with YOUR GitHub username
         // ========================================================================
         const GITHUB_USERNAME = 'r-rajababushah';  // ⚠️ CHANGE THIS!
         
@@ -212,7 +212,7 @@ export default function GitHubProfile() {
                 My GitHub profile includes a detailed README with featured projects, tech stack, and more!
               </p>
               <a
-                href="https://github.com/BhaveshNank"
+                href="https://github.com/r-rajababushah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-sm text-vscode-activityBarBadge hover:underline"

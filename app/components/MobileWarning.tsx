@@ -55,7 +55,7 @@ export default function MobileWarning() {
             View Anyway
           </button>
           <a
-            href="mailto:bhaveshnankani@outlook.com"
+            href="mailto:rajababushah.in@gmail.com"
             className="flex-1 px-4 py-2.5 bg-vscode-hover text-white font-semibold rounded hover:bg-vscode-border transition-colors text-center"
           >
             Email Me

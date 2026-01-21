@@ -32,7 +32,7 @@ interface TerminalProps {
 export default function Terminal({ onClose, onMinimize, onOpenFile, height, onResize }: TerminalProps) {
   // 🔧 CUSTOMIZE: Welcome message with your name
   const [terminalOutput, setTerminalOutput] = useState<string[]>([
-    'Welcome to Bhavesh\'s Portfolio Terminal! 💻',  // 🔧 Your name
+    'Welcome to Rajababu Shah\'s Portfolio Terminal! 💻',  // 🔧 Your name
     'Type "help" to see available commands',
     ''
   ]);
@@ -91,7 +91,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
     const command = terminalInput.trim();
     const commandLower = command.toLowerCase();
     // 🔧 CUSTOMIZE: Terminal prompt with your name/username
-    const newOutput = [...terminalOutput, `bhaveshnankani@vscode-portfolio:~$ ${terminalInput}`];  // 🔧 Your username
+    const newOutput = [...terminalOutput, `rajababushah@vscode-portfolio:~$ ${terminalInput}`];  // 🔧 Your username
     
     if (command) {
       setCommandHistory([...commandHistory, terminalInput]);
@@ -124,7 +124,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
         newOutput.push('  projects   - Open projects.json');
         newOutput.push('  contact    - Open contact.css');
         newOutput.push('  skills     - Show technical skills');
-        newOutput.push('  whoami     - About Bhavesh');
+        newOutput.push('  whoami     - About Rajababu Shah');
         newOutput.push('  ls         - List files');
         newOutput.push('  pwd        - Print working directory');
         newOutput.push('  date       - Show current date');
@@ -135,7 +135,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       },
       clear: () => {
         setTerminalOutput([
-          'Welcome to Bhavesh\'s Portfolio Terminal! 💻',
+          'Welcome to Rajababu Shah\'s Portfolio Terminal! 💻',
           'Type "help" to see available commands',
           ''
         ]);
@@ -167,7 +167,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       // 🔧 CUSTOMIZE: Update with YOUR info
       whoami: () => {
         newOutput.push('');
-        newOutput.push('root user: Bhavesh Nankani (Full Stack Engineer & Coffee Consumer ☕️)');  // 🔧 Your name and title
+        newOutput.push('root user: Rajababu Shah (Full Stack Engineer & Coffee Consumer ☕️)');  // 🔧 Your name and title
         newOutput.push('');
       },
       ls: () => {
@@ -198,7 +198,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       // },
       // 🎭 Another Easter egg
       sudo: () => {
-        newOutput.push('[sudo] password for bhaveshnankani: ');  // 🔧 Your username
+        newOutput.push('[sudo] password for rajababushah: ');  // 🔧 Your username
         setTimeout(() => {
           setTerminalOutput(prev => [...prev, 'Sorry, permission denied.', '']);
         }, 500);
@@ -208,7 +208,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
 
     if (commandLower === 'clear') {
       setTerminalOutput([
-        'Welcome to Bhavesh\'s Portfolio Terminal! 💻',
+        'Welcome to Rajababu Shah\'s Portfolio Terminal! 💻',
         'Type "help" to see available commands',
         ''
       ]);
@@ -234,7 +234,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
       } else {
         newOutput.push(`cat: ${filename}: No such file or directory`);
       }
-    } else if (commandLower === 'sudo hire bhavesh' || commandLower === 'sudo hire') {
+    } else if (commandLower === 'sudo hire rajababushah' || commandLower === 'sudo hire') {
       newOutput.push('Permission denied: You need to schedule an interview first.');
       newOutput.push('Run \'contact\' to proceed. 💼');
     } else if (commands[commandLower]) {
@@ -302,7 +302,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
           <button
             onClick={() => {
               setTerminalOutput([
-                'Welcome to Bhavesh\'s Portfolio Terminal! 💻',
+                'Welcome to Rajababu Shah\'s Portfolio Terminal! 💻',
                 'Type "help" to see available commands',
                 ''
               ]);
@@ -341,7 +341,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
           <div
             key={i}
             className={`${
-              line.startsWith('bhaveshnankani@vscode-portfolio') ? 'text-vscode-syntax-cyan font-semibold' : 
+              line.startsWith('rajababushah@vscode-portfolio') ? 'text-vscode-syntax-cyan font-semibold' : 
               line.startsWith('✓') ? 'text-vscode-syntax-blue' :
               line.includes('command not found') || line.includes('permission denied') ? 'text-vscode-syntax-red' :
               line.startsWith('💡') || line.startsWith('📖') ? 'text-vscode-syntax-yellow' :
@@ -355,7 +355,7 @@ export default function Terminal({ onClose, onMinimize, onOpenFile, height, onRe
 
         {/* Current Input Line - BELOW ALL OUTPUT */}
         <form onSubmit={handleTerminalCommand} className="flex items-center gap-2">
-          <span className="text-vscode-syntax-cyan font-semibold">bhaveshnankani@vscode-portfolio:~$</span>
+          <span className="text-vscode-syntax-cyan font-semibold">rajababushah@vscode-portfolio:~$</span>
           <input
             ref={inputRef}
             type="text"
