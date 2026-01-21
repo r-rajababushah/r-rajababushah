@@ -230,12 +230,12 @@ export default function Home() {
   // Update document title based on active tab
   useEffect(() => {
     const tabTitles: Record<string, string> = {
-      'home.jsx': 'Home | Bhavesh Nankani',
-      'about.html': 'About | Bhavesh Nankani',
-      'projects.json': 'Projects | Bhavesh Nankani',
-      'contact.css': 'Contact | Bhavesh Nankani',
-      'resume.pdf': 'Resume | Bhavesh Nankani',
-      'github': 'GitHub | Bhavesh Nankani'
+      'home.jsx': 'Home | Rajababu Shah',
+      'about.html': 'About | Rajababu Shah',
+      'projects.json': 'Projects | Rajababu Shah',
+      'contact.css': 'Contact | Rajababu Shah',
+      'resume.pdf': 'Resume | Rajababu Shah',
+      'github': 'GitHub | Rajababu Shah'
     };
     document.title = tabTitles[activeTab] || 'Bhavesh Nankani | Portfolio';
   }, [activeTab]);
