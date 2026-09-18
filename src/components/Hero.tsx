@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#262a33] shadow-md border border-[#3d494c]/30">
             <span className="inline-block w-2 h-2 rounded-full bg-[#4fdbc8] animate-pulse"></span>
             <span className="font-['JetBrains_Mono',monospace] text-[11px] uppercase tracking-wider text-[#4fdbc8] font-semibold">
-              3rd-Year B.Tech CSE • Android Specialist
+              3rd-Year B.Tech CSE • Android and Web Specialist
             </span>
           </div>
 
