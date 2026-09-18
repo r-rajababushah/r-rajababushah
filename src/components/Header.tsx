@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LOGO_URL } from '../data/portfolioData';
+import myimg from './me.jpeg';
 
 interface HeaderProps {
   onOpenResume: () => void;
@@ -39,11 +40,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenResume, activeSection }) =
   return (
     <header
       id="main-header"
-      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-[#0f131c]/95 backdrop-blur-xl border-b border-[#3d494c]/40 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
-          : 'bg-[#0f131c]/80 backdrop-blur-xl border-b border-[#3d494c]/20'
-      }`}
+      className={`fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ${scrolled
+        ? 'bg-[#0f131c]/95 backdrop-blur-xl border-b border-[#3d494c]/40 shadow-[0_4px_20px_rgba(0,0,0,0.3)]'
+        : 'bg-[#0f131c]/80 backdrop-blur-xl border-b border-[#3d494c]/20'
+        }`}
     >
       <div className="h-20 max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between gap-4">
         {/* Logo & Identity */}
@@ -55,7 +55,8 @@ export const Header: React.FC<HeaderProps> = ({ onOpenResume, activeSection }) =
           <img
             alt="Rajababu Shah Developer Logo"
             className="h-9 w-auto object-contain transition-transform group-hover:scale-105"
-            src={LOGO_URL}
+            src={myimg}
+            style={{ borderRadius: "15" }}
           />
           <div className="flex flex-col">
             <span className="font-['Plus_Jakarta_Sans',sans-serif] text-[18px] font-semibold tracking-tight text-[#dfe2ee] group-hover:text-[#4cd7f6] transition-colors">
@@ -93,11 +94,10 @@ export const Header: React.FC<HeaderProps> = ({ onOpenResume, activeSection }) =
                 key={item.label}
                 href={item.href}
                 onClick={(e) => handleScrollTo(e, item.href)}
-                className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all ${
-                  isActive
-                    ? 'bg-[#06b6d4] text-[#00424f] shadow-[0_0_16px_rgba(6,182,212,0.3)] font-semibold'
-                    : 'text-[#bcc9cd] hover:text-[#dfe2ee] hover:bg-[#262a33]'
-                }`}
+                className={`px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all ${isActive
+                  ? 'bg-[#06b6d4] text-[#00424f] shadow-[0_0_16px_rgba(6,182,212,0.3)] font-semibold'
+                  : 'text-[#bcc9cd] hover:text-[#dfe2ee] hover:bg-[#262a33]'
+                  }`}
               >
                 {item.label}
               </a>
